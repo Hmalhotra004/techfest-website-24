@@ -1,1 +1,32 @@
+.footer {
+  padding: 25px;
+  background-color: var(--header-bg-col);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.footer__heading {
+  text-align: center;
+  font-size: 20px;
+  color: var(--text-col-grey);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  user-select: none;
+}
+
+.footer__lists {
+  display: inline-block;
+  padding: 0 2px;
+  list-style: none;
+}
+
+.footer__logos {
+  margin-top: 12px;
+}
+
+.footer__tflogo {
+  user-select: none;
+  cursor: pointer;
+  width: 18rem;
+}

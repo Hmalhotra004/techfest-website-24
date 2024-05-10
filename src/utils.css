@@ -4,6 +4,7 @@
 :root {
   /* colours */
   --header-bg-col: #141416;
+  --text-col-grey: #8a8a8a;
 
   /* Sizes */
   --size-xxs: 0.5rem;
