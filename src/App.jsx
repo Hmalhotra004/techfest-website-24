@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import MeetTheTeamPage from "./pages/MeetTheTeamPage";
 import RootLayout from "./pages/Root";
 import TechExpoPage from "./pages/TechExpoPage";
 import TechSummitPage from "./pages/TechSummitPage";
@@ -10,8 +11,9 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "TechSummit", element: <TechSummitPage /> },
       { path: "TechExpo", element: <TechExpoPage /> },
+      { path: "TechSummit", element: <TechSummitPage /> },
+      { path: "MeetTheTeam", element: <MeetTheTeamPage /> },
     ],
   },
 ]);

@@ -12,7 +12,10 @@ export default function Footer() {
             key={logo.id}
             className="footer__lists"
           >
-            <a href={logo.link}>
+            <a
+              href={logo.link}
+              target="_blank"
+            >
               <img
                 src={logo.image}
                 className="footer__logos"
