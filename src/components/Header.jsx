@@ -1,5 +1,5 @@
 import tflogo from "../assets/logo/Logo.png";
-import "../styles/header.css";
+import "../styles/components/header.css";
 import Anchor from "./Anchor";
 
 export default function Header() {

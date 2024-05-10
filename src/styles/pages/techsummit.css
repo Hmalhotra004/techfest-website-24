@@ -1,41 +1,41 @@
-body {
-  background-color: rgb(0, 0, 0);
+.bg {
   color: white;
-  background-image: url(./summitbg.png);
+  background-image: url(../../assets/bg/summitbg.png);
   background-size: cover;
 }
 
-.s_1 {
+.summit {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  /* gap: 10px; */
 }
 
-.s_1 h1 {
+.summit__heading {
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
   font-weight: bold;
   margin: 10px 10px;
 }
 
-.intro > p {
+.summit__para {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 400;
   margin: 15px;
-  color: #89aefa;
+  color: var(--text-lightblue);
 }
 
-.s_1 h2 {
+.summit__subheading {
   font-family: "Monstserrat", sans-serif;
   font-size: 35px;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: 15px;
   text-align: center;
 }
 
-.s_1 h3 {
+.summit__smallheading {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 25px;
@@ -49,26 +49,6 @@ body {
   grid-template-rows: 1fr;
   gap: 0px;
   justify-content: space-evenly;
-}
-
-.pic-container {
-  grid-row-start: 0;
-  grid-row-end: 1;
-  padding: 10px 10px;
-  background-color: #1b1c1e;
-  border-radius: 10px;
-}
-
-.pic-container img {
-  width: 14rem;
-}
-
-.pic-container p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: 25px;
-  animation: glide-left 0.5s ease-in;
 }
 
 .mid {

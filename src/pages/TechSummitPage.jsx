@@ -1,28 +1,29 @@
+import "../styles/pages/techsummit.css";
+
 export default function TechSummit() {
   return (
-    <>
-      <section className=" container s_1">
-        <h1>TECHSUMMIT</h1>
-        <div className="intro">
-          <p>
-            Date : 24th January, 2024
-            <br />
-            Venue : Mukesh Patel Hall
-            <br />
-            Opp Cooper Hospital
-            <br />
-            Time : 11:30 AM Onwards
-            <br />
-          </p>
-        </div>
-        <div>
-          <h2>PANEL 1 :</h2>
-          <h3>
-            CAREER TRAJECTORIES: THE TRIFECTA OF CHOICES - <br />
-            JOBS, ENTREPRENEURSHIP, AND INVESTING
-          </h3>
-        </div>
-      </section>
+    <body className="bg">
+      <section className="summit">
+        <h1 className="summit__heading">TECHSUMMIT</h1>
+        <p className="summit__para">
+          Date : 24th January, 2024
+          <br />
+          Venue : Mukesh Patel Hall
+          <br />
+          Opp Cooper Hospital
+          <br />
+          Time : 11:30 AM Onwards
+          <br />
+        </p>
+        <h2 className="summit__subheading">PANEL 1 :</h2>
+        <h3 className="summit__smallheading">
+          CAREER TRAJECTORIES: THE TRIFECTA OF CHOICES - <br />
+          JOBS, ENTREPRENEURSHIP, AND INVESTING
+        </h3>
+
+        <section className="panel-1"></section>
+
+        {/* 
 
       <section className="s_3">
         <div className="pic-container">
@@ -151,8 +152,8 @@ export default function TechSummit() {
               +91 8058459844
             </p>
           </div>
-        </div>
+        </div> */}
       </section>
-    </>
+    </body>
   );
 }

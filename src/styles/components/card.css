@@ -1,0 +1,19 @@
+.pic-container {
+  grid-row-start: 0;
+  grid-row-end: 1;
+  padding: 10px 10px;
+  background-color: #1b1c1e;
+  border-radius: 10px;
+}
+
+.pic-container img {
+  width: 14rem;
+}
+
+.pic-container p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  animation: glide-left 0.5s ease-in;
+}
