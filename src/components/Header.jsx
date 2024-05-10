@@ -1,6 +1,6 @@
-import tflogo from "../assets/logo/Logo.png";
 import "../styles/components/header.css";
 import Anchor from "./Anchor";
+import tflogo from "/logos/tfLogo.png";
 
 export default function Header() {
   return (

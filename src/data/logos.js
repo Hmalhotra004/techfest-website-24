@@ -1,5 +1,5 @@
-import insta from "../assets/logo/instagram-logo.png";
-import linkedin from "../assets/logo/linkedin-square-logo-24.png";
+import insta from "/logos/instagram.png";
+import linkedin from "/logos/linkedin.png";
 
 export const logos = [
   {

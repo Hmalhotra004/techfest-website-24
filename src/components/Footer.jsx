@@ -1,6 +1,6 @@
-import tflogo from "../assets/logo/Logo.png";
 import { logos } from "../data/logos";
 import "../styles/components/footer.css";
+import tflogo from "/logos/tfLogo.png";
 
 export default function Footer() {
   return (
