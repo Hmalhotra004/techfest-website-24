@@ -1,12 +1,12 @@
 .header {
   display: flex;
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
   align-items: center;
   padding: 12px 10px;
   background-color: var(--header-bg-col);
 }
 
-.logo {
+.header__logo {
   cursor: pointer;
   width: 15rem;
   margin-right: auto;
@@ -18,12 +18,12 @@
   padding: 0;
 }
 
-.nav__links li {
+.nav__list {
   display: inline-block;
   padding: 0 10px;
 }
 
-li,
+.nav__list,
 a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -32,11 +32,11 @@ a {
   text-decoration: none;
 }
 
-.nav__links li a {
+.nav__list a {
   transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover,
+.nav__list a:hover,
 .active {
   color: rgb(0, 0, 255);
 }

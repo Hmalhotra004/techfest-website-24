@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <section className="header">
       <img
-        className="logo"
+        className="header__logo"
         src={tflogo}
         alt="TF Logo"
       />
