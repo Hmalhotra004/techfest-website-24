@@ -50,22 +50,22 @@
   justify-content: center;
 }
 
-.contact {
-  margin: 100px;
+#panel {
+  margin-bottom: var(--size-6xl);
 }
 
-.container {
-  background-color: #1b1c1e;
+.contact {
+  background-color: var(--pic-container);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: var(--size-7xl);
   border-radius: 10px;
 }
 
-.container h3 {
+.contact__heading {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -73,12 +73,12 @@
   margin-bottom: 20px;
 }
 
-.container > div {
+.contact__container {
   display: flex;
   justify-content: space-between;
 }
 
-.container > div p {
+.contact__para {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 25px;

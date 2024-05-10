@@ -76,3 +76,21 @@ export const speaker = [
     img: sushant,
   },
 ];
+
+export const contact = [
+  {
+    id: 1,
+    Name: "Khushi Dama",
+    No: "+91 1234567890",
+  },
+  {
+    id: 2,
+    Name: "Shorya Jain",
+    No: "+91 8824323801",
+  },
+  {
+    id: 3,
+    Name: "Shivam Sukhija",
+    No: "+91 8058459844",
+  },
+];

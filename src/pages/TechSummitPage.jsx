@@ -1,5 +1,5 @@
 import Card from "../components/Card";
-import { artists, panel_1, panel_2, speaker } from "../data/summit";
+import { artists, contact, panel_1, panel_2, speaker } from "../data/summit";
 import "../styles/pages/techsummit.css";
 
 export default function TechSummit() {
@@ -60,7 +60,10 @@ export default function TechSummit() {
 
         <h2 className="summit__subheading">KEYNOTE SPEAKERS</h2>
 
-        <section className="panel">
+        <section
+          id="panel"
+          className="panel"
+        >
           {speaker.map(data => (
             <Card
               key={data.id}
@@ -70,29 +73,21 @@ export default function TechSummit() {
           ))}
         </section>
 
-        {/* 
-
-      <section className="contact">
-        <div className="container">
-          <h3>Contact Us</h3>
-          <div>
-            <p>
-              Khushi Dama
-              <br />
-              +91 1234567890
-            </p>
-            <p>
-              Shorya Jain
-              <br />
-              +91 8824323801
-            </p>
-            <p>
-              Shivam Sukhija
-              <br />
-              +91 8058459844
-            </p>
+        <section className="contact">
+          <h3 className="contact__heading">Contact Us</h3>
+          <div className="contact__container">
+            {contact.map(data => (
+              <p
+                className="contact__para"
+                key={data.id}
+              >
+                {data.Name}
+                <br />
+                {data.No}
+              </p>
+            ))}
           </div>
-        </div> */}
+        </section>
       </section>
     </body>
   );
