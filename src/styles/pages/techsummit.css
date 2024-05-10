@@ -23,14 +23,14 @@
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 400;
-  margin: 15px;
+  margin: 10px;
   color: var(--text-lightblue);
 }
 
 .summit__subheading {
   font-family: "Monstserrat", sans-serif;
   font-size: 35px;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -39,24 +39,15 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
-.s_3 {
-  display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px;
-  justify-content: space-evenly;
-}
-
-.mid {
-  font-family: "Monstserrat", sans-serif;
-  font-size: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-xl);
+  justify-content: center;
 }
 
 .contact {

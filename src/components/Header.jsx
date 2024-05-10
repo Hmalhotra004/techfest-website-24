@@ -17,11 +17,13 @@ export default function Header() {
           <Anchor route="TechExpo">TechExpo</Anchor>
           <Anchor route="TechSummit">TechSummit</Anchor>
           <Anchor route="MeetTheTeam">Meet The Team</Anchor>
-          <Anchor route="SAP">Student Ambassador Program</Anchor>
+          <Anchor route="Sponsors">Sponsors</Anchor>
           <Anchor route="More">More</Anchor>
-          {/* <Anchor route="Sponsors">Sponsors</Anchor>
+          {/* 
+          <Anchor route="SAP">Student Ambassador Program</Anchor>
+          <Anchor route="ContactUs">Contact Us</Anchor> 
           <Anchor route="AboutUs">About Us</Anchor>
-          <Anchor route="ContactUs">Contact Us</Anchor> */}
+          */}
         </ul>
       </nav>
     </section>

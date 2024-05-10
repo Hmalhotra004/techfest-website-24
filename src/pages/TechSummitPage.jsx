@@ -1,3 +1,5 @@
+import Card from "../components/Card";
+import { artists, panel_1, panel_2, speaker } from "../data/summit";
 import "../styles/pages/techsummit.css";
 
 export default function TechSummit() {
@@ -21,116 +23,54 @@ export default function TechSummit() {
           JOBS, ENTREPRENEURSHIP, AND INVESTING
         </h3>
 
-        <section className="panel-1"></section>
+        <section className="panel">
+          {panel_1.map(data => (
+            <Card
+              key={data.id}
+              img={data.img}
+              name={data.Name}
+            />
+          ))}
+        </section>
+
+        <h2 className="summit__subheading">PANEL 2 :</h2>
+        <h3 className="summit__smallheading">BEYOND THE SPOTLIGHT</h3>
+
+        <section className="panel">
+          {panel_2.map(data => (
+            <Card
+              key={data.id}
+              img={data.img}
+              name={data.Name}
+            />
+          ))}
+        </section>
+
+        <h2 className="summit__subheading">MUSIC ARTIST</h2>
+
+        <section className="panel">
+          {artists.map(data => (
+            <Card
+              key={data.id}
+              img={data.img}
+              name={data.Name}
+            />
+          ))}
+        </section>
+
+        <h2 className="summit__subheading">KEYNOTE SPEAKERS</h2>
+
+        <section className="panel">
+          {speaker.map(data => (
+            <Card
+              key={data.id}
+              img={data.img}
+              name={data.Name}
+            />
+          ))}
+        </section>
 
         {/* 
-
-      <section className="s_3">
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/Aadi.jpg"
-            alt="Aaditya Iyengar"
-          />
-          <p>Aaditya Iyengar</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/ECOM Tushar.jpg"
-            alt="Ecom Tushar"
-          />
-          <p>Ecom Tushar</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/Prasoon.jpeg"
-            alt="Pratham Prasoon"
-          />
-          <p>Pratham Prasoon</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/fin.jpeg"
-            alt="FinCocktail"
-          />
-          <p>FinCocktail</p>
-        </div>
-      </section>
-
-      <section className="s_1">
-        <div>
-          <h2>PANEL 2 :</h2>
-          <h3>BEYOND THE SPOTLIGHT</h3>
-        </div>
-      </section>
-
-      <section className="s_3">
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/Utsav.jpg"
-            alt="Utsav Satkar"
-          />
-          <p>Utsav Satkar</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/Vishal.jpeg"
-            alt="Vishal Rasika"
-          />
-          <p>Vishal Rasika</p>
-        </div>
-      </section>
-
-      <h2 className="mid">MUSIC ARTIST</h2>
-
-      <section className="s_3">
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/surya.jpeg"
-            alt="Surya Venkat"
-          />
-          <p>Surya Venkat</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/Saxena.jpeg"
-            alt="Pranay Saksena"
-          />
-          <p>Pranay Saksena</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/anish.jpg"
-            alt="Anish Chabbra"
-          />
-          <p>Anish Chabbra</p>
-        </div>
-      </section>
-
-      <h2 className="mid">KEYNOTE SPEAKERS</h2>
-
-      <section className="s_3">
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/arjun vaidya.jpg"
-            alt="Arjun Vaidya"
-          />
-          <p>Arjun Vaidya</p>
-        </div>
-
-        <div className="pic-container">
-          <img
-            src="./Assets/ppl/Bindal.jpg"
-            alt="Sushant Bidal"
-          />
-          <p>Sushant Bidal</p>
-        </div>
-      </section>
 
       <section className="contact">
         <div className="container">
