@@ -1,6 +1,6 @@
 .bg {
   color: white;
-  background-image: url(../../assets/bg/summitbg.png);
+  background-image: url(/bg/summitbg.png);
   background-size: cover;
 }
 
