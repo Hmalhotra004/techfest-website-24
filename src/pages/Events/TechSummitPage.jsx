@@ -1,6 +1,6 @@
-import Card from "../components/Card";
-import { artists, contact, panel_1, panel_2, speaker } from "../data/summit";
-import "../styles/pages/techsummit.css";
+import Card from "../../components/Card";
+import { artists, contact, panel_1, panel_2, speaker } from "../../data/summit";
+import "../../styles/pages/techsummit.css";
 
 export default function TechSummit() {
   return (

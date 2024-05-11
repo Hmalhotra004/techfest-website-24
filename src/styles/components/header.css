@@ -41,6 +41,11 @@ a {
   color: rgb(0, 0, 255);
 }
 
+#more {
+  right: var(--size-base);
+  min-width: 110px;
+}
+
 /* 2xl */
 @media (max-width: 1536px) {
 }
