@@ -15,9 +15,9 @@ export default function Header() {
         <ul className="nav__links">
           <Anchor route="/">Home</Anchor>
           <DropDown name="Events">
-            <Anchor route="TechExpo">Gaming Events</Anchor>
-            <Anchor route="TechExpo">Informal Events</Anchor>
-            <Anchor route="TechExpo">FinTech Events</Anchor>
+            <Anchor route="Gaming">Gaming Events</Anchor>
+            <Anchor route="Informal">Informal Events</Anchor>
+            <Anchor route="FinTech">FinTech Events</Anchor>
           </DropDown>
           <Anchor route="TechExpo">TechExpo</Anchor>
           <Anchor route="TechSummit">TechSummit</Anchor>
