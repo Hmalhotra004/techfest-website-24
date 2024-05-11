@@ -1,5 +1,6 @@
 import "../styles/components/header.css";
 import Anchor from "./Anchor";
+import DropDown from "./DropDown";
 import tflogo from "/logos/tfLogo.png";
 
 export default function Header() {
@@ -13,7 +14,11 @@ export default function Header() {
       <nav>
         <ul className="nav__links">
           <Anchor route="/">Home</Anchor>
-          <Anchor route="Events">Events</Anchor>
+          <DropDown name="Events">
+            <Anchor route="TechExpo">Gaming Events</Anchor>
+            <Anchor route="TechExpo">Informal Events</Anchor>
+            <Anchor route="TechExpo">FinTech Events</Anchor>
+          </DropDown>
           <Anchor route="TechExpo">TechExpo</Anchor>
           <Anchor route="TechSummit">TechSummit</Anchor>
           <Anchor route="MeetTheTeam">Meet The Team</Anchor>
