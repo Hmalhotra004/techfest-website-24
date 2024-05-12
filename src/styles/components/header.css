@@ -1,14 +1,6 @@
 .header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   padding: 12px 10px;
   background-color: var(--header-bg-col);
-}
-
-.header__logo {
-  cursor: pointer;
-  width: clamp(10rem, 50%, 16rem);
 }
 
 .nav__links {
@@ -42,6 +34,7 @@ a {
 /* xxxs */
 @media (min-width: 320px) {
   .header {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -67,6 +60,9 @@ a {
 
 /* md */
 @media (min-width: 768px) {
+  .header {
+    justify-content: flex-end;
+  }
   .nav__links {
     display: inline-block;
   }
@@ -77,9 +73,6 @@ a {
   .header__logo {
     margin-left: 10px;
     margin-right: auto;
-  }
-  .more {
-    display: none;
   }
 }
 

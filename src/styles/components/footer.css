@@ -35,6 +35,9 @@
     align-items: center;
     flex-direction: column;
   }
+  .footer__tflogo {
+    margin-top: 1rem;
+  }
 }
 /* xs */
 /* @media (min-width: 475px) {} */

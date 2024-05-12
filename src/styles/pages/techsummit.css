@@ -16,7 +16,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 60px;
   font-weight: bold;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 .summit__para {
@@ -60,8 +60,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: var(--size-7xl);
+  margin-bottom: var(--size-5xl);
   border-radius: 10px;
 }
 
@@ -73,16 +72,51 @@
   margin-bottom: 20px;
 }
 
-.contact__container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .contact__para {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 25px;
-  margin: 10px 50px;
-  margin-bottom: 40px;
+  font-size: clamp(1.2rem, 1.5vh, 5.65rem);
   text-align: center;
 }
+
+/* Media Queries */
+/* 2xs */
+@media (min-width: 320px) {
+  .contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact__para {
+    margin: 15px 50px;
+    margin-bottom: 20px;
+  }
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .contact__container {
+    flex-direction: row;
+  }
+  .contact__para {
+    margin: 10px 50px;
+    margin-bottom: 20px;
+  }
+}
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

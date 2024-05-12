@@ -75,7 +75,7 @@ export default function TechSummit() {
 
         <section className="contact">
           <h3 className="contact__heading">Contact Us</h3>
-          <div className="contact__container">
+          <div className="contact__container container">
             {contact.map(data => (
               <p
                 className="contact__para"

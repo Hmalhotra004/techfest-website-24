@@ -27,7 +27,7 @@ export default function Footer() {
         </ul>
       </div>
       <img
-        className="tflogo"
+        className="tflogo footer__tflogo"
         src={tflogo}
         alt="techfestlogo"
       />
