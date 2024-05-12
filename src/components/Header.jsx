@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <section className="header">
       <img
-        className="header__logo"
+        className="tflogo"
         src={tflogo}
         alt="TF Logo"
       />
@@ -23,6 +23,16 @@ export default function Header() {
           <Anchor route="TechSummit">TechSummit</Anchor>
           <Anchor route="MeetTheTeam">Meet The Team</Anchor>
           <Anchor route="Sponsors">Sponsors</Anchor>
+          {/* <DropDown
+            name="More"
+            className="first"
+          >
+            <Anchor route="MeetTheTeam">Meet The Team</Anchor>
+            <Anchor route="Sponsors">Sponsors</Anchor>
+            <Anchor route="SAP">SAP</Anchor>
+            <Anchor route="ContactUs">Contact Us</Anchor>
+            <Anchor route="AboutUs">About Us</Anchor>
+          </DropDown> */}
           <DropDown
             name="More"
             id="more"
