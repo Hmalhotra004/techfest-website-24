@@ -3,7 +3,9 @@ import "../styles/pages/meettheteam.css";
 export default function MeetTheTeamPage() {
   return (
     <>
-      <h1>Meet The Team Page</h1>
+      <section className="top-core bg-mtt">
+        <h1>Core Team</h1>
+      </section>
     </>
   );
 }

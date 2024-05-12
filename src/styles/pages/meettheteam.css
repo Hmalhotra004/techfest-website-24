@@ -1,0 +1,21 @@
+.bg-mtt {
+  color: white;
+  background-image: url(/bg/mttbg.png);
+  background-size: cover;
+}
+
+.top-core {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+.top-core h1 {
+  font-size: 56px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  margin: 0.75rem;
+}

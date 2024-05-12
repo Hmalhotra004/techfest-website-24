@@ -4,7 +4,7 @@ import "../../styles/pages/techsummit.css";
 
 export default function TechSummit() {
   return (
-    <body className="bg">
+    <body className="bg-summit">
       <section className="summit">
         <h1 className="summit__heading">TECHSUMMIT</h1>
         <p className="summit__para">
