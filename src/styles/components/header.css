@@ -38,9 +38,9 @@ a {
     justify-content: center;
     align-items: center;
   }
-  .nav__links {
+  /* .nav__links {
     display: none;
-  }
+  } */
 
   .header__logo {
     margin-left: auto;
