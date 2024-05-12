@@ -8,6 +8,7 @@
   --text-lightblue: #89aefa;
   --pic-container: #1b1c1e;
   --text-white: #edf0f1;
+  --text-desg: #889ce7;
 
   /* Sizes */
   --size-2xs: 0.5rem; /*8px*/
@@ -38,6 +39,14 @@
 .tflogo {
   cursor: pointer;
   width: clamp(10rem, 50%, 16rem);
+}
+
+.panel,
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-xl);
+  justify-content: center;
 }
 
 html {

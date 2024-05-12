@@ -43,13 +43,6 @@
   text-align: center;
 }
 
-.panel {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--size-xl);
-  justify-content: center;
-}
-
 #panel {
   margin-bottom: var(--size-6xl);
 }

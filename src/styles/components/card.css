@@ -2,6 +2,7 @@
   padding: 10px 10px;
   background-color: var(--pic-container);
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .pic-container img {
@@ -9,10 +10,11 @@
   padding-bottom: 0.5rem;
 }
 
-.pic-container h2 {
-  /* font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 25px;*/
+.pic-container h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: var(--size-lg);
+  color: var(--text-desg);
   text-align: center;
 }
 
@@ -20,5 +22,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-align: center;
+  font-size: 30px;
   font-size: 1.55rem;
 }
