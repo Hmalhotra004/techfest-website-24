@@ -2,7 +2,7 @@
   padding: 10px 10px;
   background-color: var(--pic-container);
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .pic-container img {
@@ -16,6 +16,7 @@
   font-size: var(--size-lg);
   color: var(--text-desg);
   text-align: center;
+  text-transform: uppercase;
 }
 
 .pic-container h3 {

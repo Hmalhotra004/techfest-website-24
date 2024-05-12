@@ -23,7 +23,7 @@ export default function TechSummit() {
           JOBS, ENTREPRENEURSHIP, AND INVESTING
         </h3>
 
-        <section className="panel">
+        <section className="wrap">
           {panel_1.map(data => (
             <Card
               key={data.id}
@@ -36,7 +36,7 @@ export default function TechSummit() {
         <h2 className="summit__subheading">PANEL 2 :</h2>
         <h3 className="summit__smallheading">BEYOND THE SPOTLIGHT</h3>
 
-        <section className="panel">
+        <section className="wrap">
           {panel_2.map(data => (
             <Card
               key={data.id}
@@ -48,7 +48,7 @@ export default function TechSummit() {
 
         <h2 className="summit__subheading">MUSIC ARTIST</h2>
 
-        <section className="panel">
+        <section className="wrap">
           {artists.map(data => (
             <Card
               key={data.id}
@@ -62,7 +62,7 @@ export default function TechSummit() {
 
         <section
           id="panel"
-          className="panel"
+          className="wrap"
         >
           {speaker.map(data => (
             <Card

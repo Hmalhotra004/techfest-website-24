@@ -41,7 +41,6 @@
   width: clamp(10rem, 50%, 16rem);
 }
 
-.panel,
 .wrap {
   display: flex;
   flex-wrap: wrap;
