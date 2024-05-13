@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function Anchor({ children, route }) {
+const Anchor = ({ children, route }) => {
   return (
     <li className="nav__list">
       <NavLink
@@ -11,4 +11,6 @@ export default function Anchor({ children, route }) {
       </NavLink>
     </li>
   );
-}
+};
+
+export default Anchor;

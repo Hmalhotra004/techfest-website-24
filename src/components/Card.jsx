@@ -1,6 +1,6 @@
 import "../styles//components/card.css";
 
-export default function Card({ img, name }) {
+const Card = ({ img, name }) => {
   return (
     <>
       <div className="pic-container">
@@ -9,4 +9,6 @@ export default function Card({ img, name }) {
       </div>
     </>
   );
-}
+};
+
+export default Card;

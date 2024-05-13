@@ -2,7 +2,7 @@ import Card from "../../components/Card";
 import { artists, contact, panel_1, panel_2, speaker } from "../../data/summit";
 import "../../styles/pages/techsummit.css";
 
-export default function TechSummit() {
+const TechSummit = () => {
   return (
     <body className="bg-summit">
       <section className="summit">
@@ -91,4 +91,6 @@ export default function TechSummit() {
       </section>
     </body>
   );
-}
+};
+
+export default TechSummit;

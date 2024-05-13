@@ -1,6 +1,6 @@
 import "../styles/components/dropdown.css";
 
-export default function DropDown({ name, children, ...props }) {
+const DropDown = ({ name, children, ...props }) => {
   return (
     <div className="dropdown">
       <button className="nav__list">{name}</button>
@@ -12,4 +12,6 @@ export default function DropDown({ name, children, ...props }) {
       </div>
     </div>
   );
-}
+};
+
+export default DropDown;

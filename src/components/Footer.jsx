@@ -2,7 +2,7 @@ import { logos } from "../data/logos";
 import "../styles/components/footer.css";
 import tflogo from "/logos/tfLogo.png";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <section className="footer">
       <div>
@@ -33,4 +33,6 @@ export default function Footer() {
       />
     </section>
   );
-}
+};
+
+export default Footer;

@@ -1,6 +1,6 @@
 import "../styles//components/card.css";
 
-export default function TeamCard({ img, name, title }) {
+const TeamCard = ({ img, name, title }) => {
   return (
     <div className="pic-container">
       <img src={img} />
@@ -8,4 +8,6 @@ export default function TeamCard({ img, name, title }) {
       <h3>{name}</h3>
     </div>
   );
-}
+};
+
+export default TeamCard;

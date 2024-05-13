@@ -4,14 +4,7 @@ import "../styles/pages/meettheteam.css";
 import aayushpatel from "/mtt/top/aayushpatel.png";
 import dev from "/mtt/top/devB.png";
 
-// {
-//   id: 6,
-//   name: "Aayush Patel",
-//   desg: "Fest Advisor",
-//   src: aayushpatel,
-// },
-
-export default function MeetTheTeamPage() {
+const MeetTheTeamPage = () => {
   return (
     <>
       <section className="mtt">
@@ -99,4 +92,6 @@ export default function MeetTheTeamPage() {
       </section>
     </>
   );
-}
+};
+
+export default MeetTheTeamPage;
