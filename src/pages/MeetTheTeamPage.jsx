@@ -16,6 +16,7 @@ const MeetTheTeamPage = () => {
             title="Chairperson"
           />
         </div>
+
         <div className="wrap">
           {top.map(data => (
             <TeamCard
@@ -34,9 +35,10 @@ const MeetTheTeamPage = () => {
           />
         </div>
       </section>
+
       <section className="mtt">
         <h1>Head of Departments</h1>
-        <h1>Vertical 1</h1>
+        <h2>Vertical 1</h2>
         <div className="wrap">
           {V1.map(data => (
             <TeamCard
@@ -50,7 +52,7 @@ const MeetTheTeamPage = () => {
       </section>
 
       <section className="mtt">
-        <h1>Vertical 2</h1>
+        <h2>Vertical 2</h2>
         <div className="wrap">
           {V2.map(data => (
             <TeamCard
@@ -64,7 +66,7 @@ const MeetTheTeamPage = () => {
       </section>
 
       <section className="mtt">
-        <h1>Vertical 3</h1>
+        <h2>Vertical 3</h2>
         <div className="wrap">
           {V3.map(data => (
             <TeamCard
@@ -78,7 +80,7 @@ const MeetTheTeamPage = () => {
       </section>
 
       <section className="mtt">
-        <h1>Vertical 4</h1>
+        <h2>Vertical 4</h2>
         <div className="wrap">
           {V4.map(data => (
             <TeamCard

@@ -8,10 +8,42 @@
   flex-direction: column;
 }
 
-.mtt h1 {
-  font-size: 56px;
+.mtt h1,
+.mtt h2 {
+  font-size: clamp(45px, 1.5vw, 60px);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: bold;
   margin: 0.75rem;
+  text-align: center;
 }
+
+/* 2xs */
+@media (min-width: 320px) {
+  .mtt h2 {
+    margin-top: 3rem;
+  }
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .mtt h2 {
+    margin-top: 1.5rem;
+  }
+}
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
