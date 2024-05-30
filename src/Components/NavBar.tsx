@@ -3,7 +3,7 @@ import Anchor from "./Anchor";
 import DropDown from "./DropDown";
 import tflogo from "/logos/tfLogo.png";
 
-const Header = () => {
+const NavBar = () => {
   return (
     <section className="header">
       <img
@@ -47,4 +47,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;

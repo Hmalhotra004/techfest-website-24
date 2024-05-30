@@ -1,4 +1,4 @@
-import "../styles//components/teamcard.css";
+import "../styles/components/teamcard.css";
 
 const TeamCard = ({ img, name, title }) => {
   return (
