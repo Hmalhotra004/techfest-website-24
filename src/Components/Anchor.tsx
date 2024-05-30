@@ -1,14 +1,15 @@
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
+import styles from "../Components/Styles/NavBar.module.scss";
 
-const Anchor = ({ children, route }) => {
+const Anchor = ({ children, route }: { children: string; route: string }) => {
   return (
-    <li className="nav__list">
-      <NavLink
-        to={route}
-        className={({ isActive }) => (isActive ? "active" : undefined)}
+    <li className={styles.nav__list}>
+      <Link
+        href={route}
+        // className={({ isActive }) => (isActive ? "active" : undefined)}
       >
         {children}
-      </NavLink>
+      </Link>
     </li>
   );
 };

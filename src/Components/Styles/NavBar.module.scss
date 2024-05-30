@@ -1,6 +1,8 @@
+@import "../../app/utils.scss";
+
 .header {
-  padding: 12px 10px;
-  background-color: var(--header-bg-col);
+  padding: 1rem 0.5rem;
+  background-color: $dark-900;
 }
 
 .nav__links {
@@ -8,13 +10,14 @@
   padding: 0;
 }
 
-.nav__list,
-a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: clamp(1rem, 1.5vw, 3rem);
-  color: var(--text-white);
-  text-decoration: none;
+.nav__list {
+  a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    color: var(--text-white);
+    text-decoration: none;
+  }
 }
 
 .nav__list a {
