@@ -1,9 +1,14 @@
 import Link from "next/link";
 import styles from "../Components/Styles/NavBar.module.scss";
 
-const Anchor = ({ children, route }: { children: string; route: string }) => {
+type Props = {
+  children: string;
+  route: string;
+};
+
+const Anchor = ({ children, route }: Props) => {
   return (
-    <li className={styles.nav__list}>
+    <li className={styles.lists}>
       <Link
         href={route}
         // className={({ isActive }) => (isActive ? "active" : undefined)}

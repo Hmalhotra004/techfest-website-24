@@ -1,90 +1,73 @@
 @import "../../app/utils.scss";
 
 .header {
-  padding: 1rem 0.5rem;
-  background-color: $dark-900;
+  padding: 0.5rem 0.5rem;
+  background-color: $header;
 }
 
-.nav__links {
+.logo {
+  width: 20rem;
+  @include b-r;
+}
+
+.links {
   list-style: none;
   padding: 0;
+  margin-left: 3.5rem;
 }
 
-.nav__list {
+.lists {
   a {
+    color: $white;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: clamp(1rem, 1.5vw, 3rem);
-    color: var(--text-white);
     text-decoration: none;
   }
 }
 
-.nav__list a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav__list a:hover,
-.active {
-  color: rgb(0, 0, 255);
-}
-
-#more {
-  right: var(--size-2xs);
-  width: clamp(10rem, 75%, 16rem);
-}
-
-/* xxxs */
+// 3xs
 @media (min-width: 320px) {
   .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  /* .nav__links {
-    display: none;
-  } */
-
-  .header__logo {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .ham {
-    display: block;
-    color: #fff;
+    @include flex-c;
   }
 }
-/* xs */
-/* @media (min-width: 475px) {} */
 
-/* sm */
-/* @media (min-width: 640px) {} */
+// 2xs
+// @media (min-width: 375px) {}
 
-/* md */
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+// @media (min-width: 640px) {}
+
+// md
 @media (min-width: 768px) {
   .header {
     justify-content: flex-end;
   }
-  .nav__links {
+
+  .links {
     display: inline-block;
   }
-  .nav__list {
+
+  .lists {
     display: inline-block;
-    padding: 0 10px;
+    margin: 0 10px;
   }
-  .header__logo {
-    margin-left: 10px;
+
+  .logo {
     margin-right: auto;
+    width: 20rem;
   }
 }
 
 /* lg */
-@media (min-width: 1024px) {
-}
+// @media (min-width: 1024px) {}
 
-/* xl */
-/* @media (min-width: 1280px) {} */
+// xl
+// @media (min-width: 1280px) {}
 
-/* 2xl */
-/* @media (min-width: 1536px) {} */
+// 2xl
+// @media (min-width: 1536px) {}
