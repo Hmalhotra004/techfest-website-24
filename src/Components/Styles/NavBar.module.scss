@@ -6,7 +6,7 @@
 }
 
 .active {
-  color: $blue;
+  color: #0000ff;
 }
 
 .logo {
@@ -28,9 +28,8 @@
     text-decoration: none;
     transition: 0.3s ease-out;
 
-    &:hover,
-    &:active {
-      color: $blue;
+    &:hover {
+      color: #0000ff;
     }
   }
 }
