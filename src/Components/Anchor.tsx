@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import styles from "../Components/Styles/NavBar.module.scss";
 
 type Props = {
@@ -7,11 +9,12 @@ type Props = {
 };
 
 const Anchor = ({ children, route }: Props) => {
+  const pathname = usePathname();
   return (
     <li className={styles.lists}>
       <Link
         href={route}
-        // className={({ isActive }) => (isActive ? "active" : undefined)}
+        className={pathname === route ? styles.active : ""}
       >
         {children}
       </Link>

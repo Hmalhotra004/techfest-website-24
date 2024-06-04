@@ -5,6 +5,10 @@
   background-color: $header;
 }
 
+.active {
+  color: $blue;
+}
+
 .logo {
   width: 20rem;
   @include b-r;
@@ -25,7 +29,8 @@
     text-decoration: none;
     transition: 0.3s ease-out;
 
-    &:hover {
+    &:hover,
+    &:active {
       color: $blue;
     }
   }
