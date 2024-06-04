@@ -10,13 +10,15 @@
 }
 
 .logo {
-  width: 20rem;
+  user-select: none;
+  display: block;
+  max-width: 100%;
+  @include b-r;
 }
 
 .links {
   list-style: none;
   padding: 0;
-  margin-left: 3.5rem;
 }
 
 .lists {
