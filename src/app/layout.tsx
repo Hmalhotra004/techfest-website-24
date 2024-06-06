@@ -1,10 +1,17 @@
+import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./modern.css";
 import "./utils.scss";
 
-const inter = Inter({ subsets: ["latin"] });
+export const open = { subsets: ["Latin"] };
+
+export const mons = Montserrat({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "NMTechFest'24",
@@ -18,9 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={mons.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

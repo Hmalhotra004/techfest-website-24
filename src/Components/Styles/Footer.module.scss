@@ -1,23 +1,32 @@
+@import "../../app/utils.scss";
+
 .footer {
   padding: 1.25rem;
-  background-color: var(--header-bg-col);
+  background-color: $header;
 }
 
-.footer__heading {
-  text-align: center;
-  font-size: 20px;
-  color: var(--text-col-grey);
+.heading {
   font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: $size-2xl;
+  margin: 0.5rem 0;
+  color: $white;
   font-weight: 400;
   user-select: none;
 }
 
-.footer__lists {
-  display: inline-block;
-  justify-content: center;
+.logo {
+  width: 20rem;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 0 2px;
+  margin: 0 2px;
   list-style: none;
+  color: $white;
+  font-size: $size-xl;
 }
 
 .footer__logos {
@@ -30,12 +39,11 @@
 /* 2xs */
 @media (min-width: 320px) {
   .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-c;
     flex-direction: column;
   }
-  .footer__tflogo {
+
+  .logo {
     margin-top: 1rem;
   }
 }

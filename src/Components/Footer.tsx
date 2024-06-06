@@ -1,38 +1,33 @@
-import { logos } from "../data/logos";
-import "../styles/components/footer.css";
-import tflogo from "/logos/tfLogo.png";
+import styles from "@/Components/Styles/Footer.module.scss";
+import { FaThreads } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import TFLogo from "./TFLogo";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className={styles.footer}>
       <div>
-        <h3 className="footer__heading">Follow Us On:</h3>
-        <ul>
-          {logos.map(logo => (
-            <li
-              key={logo.id}
-              className="footer__lists"
-            >
-              <a
-                href={logo.link}
-                target="_blank"
-              >
-                <img
-                  src={logo.image}
-                  className="footer__logos"
-                />
-              </a>
-            </li>
-          ))}
-        </ul>
+        <h3 className={styles.heading}>Follow Us On:</h3>
+        <Socials />
       </div>
-      <img
-        className="tflogo footer__tflogo"
-        src={tflogo}
-        alt="techfestlogo"
-      />
+      <TFLogo classname={styles.logo} />
     </section>
   );
 };
+
+const Socials = () => (
+  <ul className={styles.lists}>
+    <li>
+      <FaInstagram />
+    </li>
+    <li>
+      <FaLinkedinIn />
+    </li>
+    <li>
+      <FaThreads />
+    </li>
+  </ul>
+);
 
 export default Footer;
