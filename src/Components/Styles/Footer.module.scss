@@ -23,6 +23,11 @@
   list-style: none;
   color: $white;
   font-size: $size-xl;
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
 }
 
 /* 2xs */
@@ -35,7 +40,6 @@
   .logo {
     margin-top: 1rem;
     width: 10rem;
-    @include b-r;
   }
 }
 /* xs */
