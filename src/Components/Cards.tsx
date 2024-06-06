@@ -1,5 +1,6 @@
 import styles from "@/Components/Styles/Card.module.scss";
 import Image, { StaticImageData } from "next/image";
+import {motion} from "framer-motion"
 
 type PropsO = {
   data: {
@@ -31,7 +32,7 @@ type PropsC = {
 const Card = ({ src, name, desg }: PropsC) => {
   return (
     <>
-      <div id={styles.pic_cont}>
+      <motion.div id={styles.pic_cont}>
         <Image
           src={src}
           alt={name}
@@ -41,7 +42,7 @@ const Card = ({ src, name, desg }: PropsC) => {
         />
         <h6 id={styles.desg}>{desg}</h6>
         <h3 id={styles.name}>{name}</h3>
-      </div>
+      </motion.div>
     </>
   );
 };
