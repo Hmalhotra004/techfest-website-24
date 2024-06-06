@@ -1,5 +1,4 @@
 import styles from "@/Components/Styles/Footer.module.scss";
-import { open } from "@/app/layout";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import TFLogo from "./TFLogo";
@@ -8,7 +7,7 @@ const Footer = () => {
   return (
     <section className={styles.footer}>
       <div>
-        <h3 className={`${styles.heading} ${open}`}>Follow Us On:</h3>
+        <h3 className={`${styles.heading}`}>Follow Us On:</h3>
         <Socials />
       </div>
       <TFLogo classname={styles.logo} />
