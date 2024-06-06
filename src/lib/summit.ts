@@ -3,7 +3,7 @@ import anish from "@/assets/summit/anish.jpg";
 import arjun from "@/assets/summit/arjun vaidya.jpg";
 import sushant from "@/assets/summit/Bindal.jpg";
 import Ecom from "@/assets/summit/ECOM Tushar.jpg";
-import FinCocktail from "@/assets/summit/fin.jpeg";
+import FinCocktail from "@/assets/summit/fin2.jpg";
 import Pratham from "@/assets/summit/Prasoon.jpeg";
 import pranay from "@/assets/summit/Saxena.jpeg";
 import surya from "@/assets/summit/surya.jpeg";

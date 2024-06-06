@@ -1,29 +1,33 @@
-.pic-container {
+@import "../../app/utils.scss";
+
+#pic_cont {
   padding: 10px 10px;
-  background-color: var(--pic-container);
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
-.pic-container img {
+  background-color: $cont;
+  border-radius: 20px;
+  margin-bottom: 1.25rem;
   width: 14rem;
-  height: fit-content;
-  padding-bottom: 0.5rem;
 }
 
-.pic-container h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: var(--size-lg);
-  color: var(--text-desg);
-  text-align: center;
-  text-transform: uppercase;
+#pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
 }
 
-.pic-container h3 {
+#name {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-align: center;
-  font-size: 30px;
-  font-size: 1.55rem;
+
+  font-size: $size-2xl;
+}
+
+#desg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: $size-lg;
+  color: var(--text-desg);
+  text-align: center;
+  text-transform: uppercase;
 }

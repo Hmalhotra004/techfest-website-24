@@ -1,25 +1,49 @@
-import Image from "next/image";
-import "../styles/components/card.css";
+import styles from "@/Components/Styles/Card.module.scss";
+import Image, { StaticImageData } from "next/image";
 
-type Props = {
-  img: string;
+type PropsO = {
+  data: {
+    Name: string;
+    img: StaticImageData;
+    desg?: string;
+  }[];
+};
+
+const CardLayout = ({ data }: PropsO) => (
+  <div id="wrapper">
+    {data.map((data, idx) => (
+      <Card
+        key={idx}
+        src={data.img}
+        name={data.Name}
+        desg={data.desg}
+      />
+    ))}
+  </div>
+);
+
+type PropsC = {
+  src: StaticImageData;
   name: string;
-}
+  desg?: string;
+};
 
-const Card = ({ img, name }: Props) => {
+const Card = ({ src, name, desg }: PropsC) => {
   return (
     <>
-      <div className="pic-container">
+      <div id={styles.pic_cont}>
         <Image
-          src={img}
+          src={src}
           alt={name}
           width={1000}
           height={100}
+          id={styles.pic}
         />
-        <h3>{name}</h3>
+        <h6 id={styles.desg}>{desg}</h6>
+        <h3 id={styles.name}>{name}</h3>
       </div>
     </>
   );
 };
 
-export default Card;
+export default CardLayout;

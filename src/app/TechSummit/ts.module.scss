@@ -13,14 +13,28 @@
 }
 
 .header {
-  font-size: $size-7xl;
+  font-size: clamp($size-5xl, 10vw, $size-7xl);
   font-weight: bold;
   margin-top: 3.5rem;
   margin-bottom: 1rem;
 }
 
+.header2 {
+  font-size: clamp($size-2xl, 3vw, $size-4xl);
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.header3 {
+  font-size: clamp($size-base, 2.5vw, $size-2xl);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 .dets {
-  font-size: $size-2xl;
+  font-size: clamp($size-lg, 2.5vw, $size-2xl);
   color: $summit-dets;
   margin-bottom: 1.25rem;
 }
