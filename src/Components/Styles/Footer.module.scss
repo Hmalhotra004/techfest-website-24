@@ -1,22 +1,18 @@
 @import "../../app/utils.scss";
 
 .footer {
-  padding: 1.25rem;
+  padding: 1rem;
   background-color: $header;
 }
 
 .heading {
-  font-family: "Open Sans", sans-serif;
+  // font-family: $font-open, sans-serif;
   text-align: center;
-  font-size: $size-2xl;
+  font-size: $size-xl;
   margin: 0.5rem 0;
-  color: $white;
-  font-weight: 400;
+  color: $footer;
+  font-weight: 500;
   user-select: none;
-}
-
-.logo {
-  width: 20rem;
 }
 
 .lists {
@@ -29,13 +25,6 @@
   font-size: $size-xl;
 }
 
-.footer__logos {
-  margin-top: 12px;
-  margin-right: 0;
-  padding-right: 0;
-  width: clamp(0.5rem, 100%, 1.75rem);
-}
-
 /* 2xs */
 @media (min-width: 320px) {
   .footer {
@@ -45,6 +34,8 @@
 
   .logo {
     margin-top: 1rem;
+    width: 10rem;
+    @include b-r;
   }
 }
 /* xs */
@@ -58,6 +49,9 @@
   .footer {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .logo {
+    width: 20rem;
   }
 }
 

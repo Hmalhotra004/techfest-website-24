@@ -1,14 +1,14 @@
 import styles from "@/Components/Styles/Footer.module.scss";
+import { open } from "@/app/layout";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
 import TFLogo from "./TFLogo";
 
 const Footer = () => {
   return (
     <section className={styles.footer}>
       <div>
-        <h3 className={styles.heading}>Follow Us On:</h3>
+        <h3 className={`${styles.heading} ${open}`}>Follow Us On:</h3>
         <Socials />
       </div>
       <TFLogo classname={styles.logo} />
@@ -19,13 +19,28 @@ const Footer = () => {
 const Socials = () => (
   <ul className={styles.lists}>
     <li>
-      <FaInstagram />
+      <a
+        href="https://www.instagram.com/nm_techfest?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+      >
+        <FaInstagram />
+      </a>
     </li>
     <li>
-      <FaLinkedinIn />
+      <a
+        href="https://www.linkedin.com/company/nm-techfest/"
+        target="_blank"
+      >
+        <FaLinkedinIn />
+      </a>
     </li>
     <li>
-      <FaThreads />
+      <a
+        href="https://www.threads.net/@nm_techfest?xmt=AQGzKVOTgfG6UDQeEoDPSD-v0lwdCgNzPvKHfnCW19GvG6U"
+        target="_blank"
+      >
+        <FaThreads />
+      </a>
     </li>
   </ul>
 );

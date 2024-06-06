@@ -6,7 +6,7 @@ const TFLogo = ({ classname }: { classname: string }) => {
   return (
     <Link href="/">
       <Image
-        width={2000}
+        width={1000}
         height={100}
         src={tflogo}
         alt="TF Logo"
