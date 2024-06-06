@@ -1,7 +1,7 @@
 import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar";
 import type { Metadata } from "next";
-import { Montserrat, Open_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./modern.css";
 import "./utils.scss";
 
@@ -11,10 +11,10 @@ export const mons = Montserrat({
   display: "swap",
 });
 
-export const open = Open_Sans({
-  subsets: ["latin"],
-  display: "swap",
-});
+// export const open = Open_Sans({
+//   subsets: ["latin"],
+//   display: "swap",
+// });
 
 export const metadata: Metadata = {
   title: "NMTechFest'24",
