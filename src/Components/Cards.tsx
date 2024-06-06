@@ -9,7 +9,7 @@ type PropsO = {
   }[];
 };
 
-const CardLayout = ({ data }: PropsO) => (
+const Cards = ({ data }: PropsO) => (
   <div id="wrapper">
     {data.map((data, idx) => (
       <Card
@@ -46,4 +46,4 @@ const Card = ({ src, name, desg }: PropsC) => {
   );
 };
 
-export default CardLayout;
+export default Cards;

@@ -1,5 +1,5 @@
 "use client";
-import { default as CardLayout } from "@/Components/Card";
+import Cards from "@/Components/Cards";
 import Reveal from "@/Components/Reveal";
 import { panel_1 } from "@/lib/summit";
 import styles from "./ts.module.scss";
@@ -32,7 +32,7 @@ const TechSummit = () => {
           </h3>
         </Reveal>
 
-        <CardLayout data={panel_1} />
+        <Cards data={panel_1} />
       </section>
     </section>
   );
