@@ -7,6 +7,7 @@ import "./utils.scss";
 
 export const open = Open_Sans({
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const mons = Montserrat({
