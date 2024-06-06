@@ -22,13 +22,10 @@ Use a better box model (opinionated).
 */
 
 html {
-  line-height: calc(1em + 0.5rem); /* 1 */
+  line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /*
@@ -270,4 +267,34 @@ Add the correct display in Chrome and Safari.
 
 summary {
   display: list-item;
+}
+
+* {
+  line-height: calc(1em + 0.5rem);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
 }

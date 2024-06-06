@@ -6,14 +6,13 @@
 }
 
 .active {
-  color: #0000ff;
+  color: $active;
 }
 
 .logo {
   user-select: none;
   display: block;
   max-width: 100%;
-  @include b-r;
 }
 
 .links {
@@ -31,7 +30,7 @@
     transition: 0.3s ease-out;
 
     &:hover {
-      color: #0000ff;
+      color: $active;
     }
   }
 }

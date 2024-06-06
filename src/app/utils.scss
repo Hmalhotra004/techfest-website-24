@@ -1,5 +1,8 @@
 // colours
 $header: #141416;
+$active: #0000ff;
+
+//default
 $blue: #007bff;
 $indigo: #6610f2;
 $purple: #6f42c1;
@@ -81,36 +84,6 @@ $size-11xl: 10rem; /*160px*/
   font-size: clamp($size-base, 2vw, $size-xl);
   font-weight: 400;
 }
-
-// * {
-//   line-height: calc(1em + 0.5rem);
-//   box-sizing: border-box;
-//   margin: 0;
-//   padding: 0;
-// }
-
-// html {
-//   scroll-behavior: smooth;
-// }
-
-// img,
-// picture,
-// video,
-// canvas,
-// svg {
-//   display: block;
-//   max-width: 100%;
-//   user-select: none;
-// }
-
-// button {
-//   display: inline-block;
-//   padding: 0;
-//   border: none;
-//   background: none;
-//   cursor: pointer;
-//   color: inherit;
-// }
 
 .section {
   margin-top: 3.5rem;
