@@ -5,7 +5,7 @@ import { Montserrat } from "next/font/google";
 import "./modern.css";
 import "./utils.scss";
 
-export const mons = Montserrat({
+export const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   display: "swap",
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={mons.className}>
+      <body className={montserrat.className}>
         <NavBar />
         {children}
         <Footer />
