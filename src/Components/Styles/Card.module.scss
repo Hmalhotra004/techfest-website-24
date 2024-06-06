@@ -31,3 +31,39 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+// 3xs
+@media (min-width: 320px) {
+  #pic_cont {
+    margin-bottom: 0rem;
+
+    &:last-child {
+      margin-bottom: 1.25rem;
+    }
+  }
+}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+@media (min-width: 640px) {
+  #pic_cont {
+    margin-bottom: 1.25rem;
+  }
+}
+
+// md
+// @media (min-width: 768px) {}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}
