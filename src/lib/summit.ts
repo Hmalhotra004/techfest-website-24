@@ -1,14 +1,19 @@
-import Iyengar from "/summit/Aadi.jpg";
-import anish from "/summit/anish.jpg";
-import arjun from "/summit/arjun vaidya.jpg";
-import sushant from "/summit/Bindal.jpg";
-import Ecom from "/summit/ECOM Tushar.jpg";
-import FinCocktail from "/summit/fin.jpeg";
-import Pratham from "/summit/Prasoon.jpeg";
-import pranay from "/summit/Saxena.jpeg";
-import surya from "/summit/surya.jpeg";
-import utsav from "/summit/Utsav.jpg";
-import vishal from "/summit/Vishal.jpeg";
+import Iyengar from "@/assets/summit/Aadi.jpg";
+import anish from "@/assets/summit/anish.jpg";
+import arjun from "@/assets/summit/arjun vaidya.jpg";
+import sushant from "@/assets/summit/Bindal.jpg";
+import Ecom from "@/assets/summit/ECOM Tushar.jpg";
+import FinCocktail from "@/assets/summit/fin.jpeg";
+import Pratham from "@/assets/summit/Prasoon.jpeg";
+import pranay from "@/assets/summit/Saxena.jpeg";
+import surya from "@/assets/summit/surya.jpeg";
+import utsav from "@/assets/summit/Utsav.jpg";
+import vishal from "@/assets/summit/Vishal.jpeg";
+
+export const dets = `Date : 24th January, 2024
+Venue : Mukesh Patel Hall
+Opp Cooper Hospital
+Time : 11:30 AM Onwards`;
 
 export const panel_1 = [
   {

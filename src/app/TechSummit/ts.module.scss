@@ -1,0 +1,26 @@
+@import "../../app/utils.scss";
+
+.bg {
+  background-image: url("/bg/summitbg-c.png");
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.ts {
+  @include flex-cc;
+  color: $white;
+}
+
+.header {
+  font-size: $size-7xl;
+  font-weight: bold;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.dets {
+  font-size: $size-2xl;
+  color: $summit-dets;
+  margin-bottom: 1.25rem;
+}
