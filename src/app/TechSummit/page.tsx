@@ -2,6 +2,7 @@
 import Cards from "@/Components/Cards";
 import Reveal from "@/Components/Reveal";
 import { artists, contact, panel_1, panel_2, speaker } from "@/lib/summit";
+import { motion } from "framer-motion";
 import styles from "./ts.module.scss";
 
 const TechSummit = () => {
@@ -63,20 +64,31 @@ const TechSummit = () => {
 };
 
 const Contact = () => (
-  <footer className={styles.contact}>
-    <h2>Contact Us</h2>
-    <div className={styles.wrapper}>
+  <motion.footer
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0, transition: { duration: 0.7 } }}
+    viewport={{ once: true }}
+    className={styles.contact}
+  >
+    <Reveal y={100}>
+      <h2>Contact Us</h2>
+    </Reveal>
+
+    <motion.div className={styles.wrapper}>
       {contact.map((data, idx) => (
-        <div
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0, transition: { duration: 0.7 } }}
+          viewport={{ once: true }}
           key={idx}
           className={styles.inner}
         >
           <h3>{data.Name}</h3>
           <p>{data.No}</p>
-        </div>
+        </motion.div>
       ))}
-    </div>
-  </footer>
+    </motion.div>
+  </motion.footer>
 );
 
 export default TechSummit;

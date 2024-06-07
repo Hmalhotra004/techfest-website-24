@@ -1,0 +1,11 @@
+@import "../../app/utils.scss";
+
+.bg {
+  background-image: url("/bg/mttbg-min.png");
+  background-size: cover;
+}
+
+.mtt {
+  @include flex-cc;
+  color: $white;
+}
