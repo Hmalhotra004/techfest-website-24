@@ -4,7 +4,6 @@
   padding: 10px;
   background-color: $cont;
   border-radius: 10px;
-  margin-bottom: 1.25rem;
   width: 14rem;
 }
 
@@ -35,10 +34,6 @@
 @media (min-width: 320px) {
   #pic_cont {
     margin-bottom: 0rem;
-
-    &:last-child {
-      margin-bottom: 1.25rem;
-    }
   }
 }
 
@@ -51,7 +46,7 @@
 // sm
 @media (min-width: 640px) {
   #pic_cont {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 }
 
