@@ -10,11 +10,6 @@ import surya from "@/assets/summit/surya.jpeg";
 import utsav from "@/assets/summit/Utsav.jpg";
 import vishal from "@/assets/summit/Vishal.jpeg";
 
-export const dets = `Date : 24th January, 2024
-Venue : Mukesh Patel Hall
-Opp Cooper Hospital
-Time : 11:30 AM Onwards`;
-
 export const panel_1 = [
   {
     Name: "Aaditya Iyengar",
