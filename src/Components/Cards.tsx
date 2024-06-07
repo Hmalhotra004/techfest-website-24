@@ -1,6 +1,7 @@
 import styles from "@/Components/Styles/Card.module.scss";
+import { motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
-import {motion} from "framer-motion"
+import Reveal from "./Reveal";
 
 type PropsO = {
   data: {
@@ -32,17 +33,34 @@ type PropsC = {
 const Card = ({ src, name, desg }: PropsC) => {
   return (
     <>
-      <motion.div id={styles.pic_cont}>
-        <Image
-          src={src}
-          alt={name}
-          width={1000}
-          height={100}
-          id={styles.pic}
-        />
-        <h6 id={styles.desg}>{desg}</h6>
-        <h3 id={styles.name}>{name}</h3>
-      </motion.div>
+      <Reveal y={100}>
+        <div id={styles.pic_cont}>
+          <Reveal
+            y={50}
+            de={0.5}
+            du={0.8}
+          >
+            <Image
+              src={src}
+              alt={name}
+              width={1000}
+              height={100}
+              id={styles.pic}
+            />
+          </Reveal>
+          <h6 id={styles.desg}>{desg}</h6>
+          <motion.h3
+            // initial={{ opacity: 0, x: -400 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            id={styles.name}
+          >
+            {name}
+          </motion.h3>
+          {/* <Reveal x={-400}>
+            <div id={styles.div}></div>
+          </Reveal> */}
+        </div>
+      </Reveal>
     </>
   );
 };
