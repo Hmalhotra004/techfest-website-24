@@ -2,8 +2,7 @@
 $header: #141416;
 $active: #0000ff;
 $footer: #8a8a8a;
-$summit-dets: #89aefa;
-$desg: #89aefa;
+$light-blue: #89aefa;
 $cont: #1b1c1e;
 
 //default
@@ -94,7 +93,7 @@ $size-11xl: 10rem; /*160px*/
 
 #wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
