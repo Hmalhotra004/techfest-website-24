@@ -1,7 +1,7 @@
 "use client";
+import styles from "@/Styles/NavBar.module.scss";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import styles from "../Components/Styles/NavBar.module.scss";
 
 type Props = {
   children: string;

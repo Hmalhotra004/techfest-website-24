@@ -1,5 +1,5 @@
 import { header } from "@/lib/header";
-import styles from "../Components/Styles/NavBar.module.scss";
+import styles from "@/Styles/NavBar.module.scss";
 import Anchor from "./Anchor";
 import TFLogo from "./TFLogo";
 

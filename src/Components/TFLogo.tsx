@@ -1,14 +1,12 @@
-import tflogo from "@/assets/Logo.png";
-import Image from "next/image";
+"use client";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 const TFLogo = ({ classname }: { classname: string }) => {
   return (
     <Link href="/">
-      <Image
-        width={1000}
-        height={100}
-        src={tflogo}
+      <motion.img
+        src="/Logo.png"
         alt="TF Logo"
         className={classname}
       />

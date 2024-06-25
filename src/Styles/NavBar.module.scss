@@ -1,4 +1,4 @@
-@import "../../app/utils.scss";
+@import "../app/utils.scss";
 
 .header {
   padding: 0.5rem 0.5rem;
@@ -7,12 +7,6 @@
 
 .active {
   color: $active;
-}
-
-.logo {
-  user-select: none;
-  display: block;
-  max-width: 100%;
 }
 
 .links {
@@ -25,7 +19,7 @@
     color: $white;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: clamp(1rem, 1.5vw, 3rem);
+    font-size: clamp(1rem, 1.25vw, 2rem);
     text-decoration: none;
     transition: 0.3s ease-out;
 
@@ -39,7 +33,19 @@
 @media (min-width: 320px) {
   .header {
     @include flex-c;
+
+    a {
+      margin-right: auto;
+    }
+
+    .logo {
+      width: 15rem;
+    }
   }
+
+  // .links {
+  //   display: none;
+  // }
 }
 
 // 2xs
@@ -55,25 +61,32 @@
 @media (min-width: 768px) {
   .header {
     justify-content: flex-end;
+    border-bottom: 1px solid white;
   }
 
   .links {
-    display: inline-block;
+    @include flex-c;
+    flex-direction: row;
   }
 
   .lists {
-    display: inline-block;
-    margin: 0 10px;
+    @include flex-c;
+    margin: 0 0.5rem;
   }
 
   .logo {
     margin-right: auto;
-    width: 20rem;
+    margin-left: 1px;
+    width: 20rem !important;
   }
 }
 
 /* lg */
-// @media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+  .lists {
+    margin: 0 15px;
+  }
+}
 
 // xl
 // @media (min-width: 1280px) {}

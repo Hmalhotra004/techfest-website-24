@@ -1,4 +1,4 @@
-import styles from "@/Components/Styles/Card.module.scss";
+import styles from "@/Styles/Card.module.scss";
 import { motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 import Reveal from "./Reveal";
