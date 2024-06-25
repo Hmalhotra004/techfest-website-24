@@ -1,21 +1,21 @@
-// import "../styles/components/dropdown.css";
+import "@/Styles/Dropdown.module.scss";
 
-// type Props = {
+type Props = {
+  name: string;
+  // children: any;
+};
 
-// }
+const DropDown = ({ name,  ...props }: Props) => {
+  return (
+    <div className="dropdown">
+      <button className="dropbtn">{name}</button>
+      <div className="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+  );
+};
 
-// const DropDown = ({ name, children, ...props }) => {
-//   return (
-//     <div className="dropdown">
-//       <button className="nav__list">{name}</button>
-//       <div
-//         className="dropdown-content"
-//         {...props}
-//       >
-//         <ul className="nav__links">{children}</ul>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default DropDown;
+export default DropDown;
