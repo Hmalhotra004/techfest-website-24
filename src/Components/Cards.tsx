@@ -56,14 +56,16 @@ const Card = ({ src, name, desg }: PropsC) => {
             {desg}
           </motion.h6>
 
-          <motion.h3
-            initial={{ opacity: 0, x: -200 }}
-            whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
-            viewport={{ once: true }}
-            id={styles.name}
-          >
-            {name}
-          </motion.h3>
+          <Reveal x={-500}>
+            <motion.h3
+              // initial={{ opacity: 0, x: -200 }}
+              // whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
+              // viewport={{ once: true }}
+              id={styles.name}
+            >
+              {name}
+            </motion.h3>
+          </Reveal>
         </div>
       </Reveal>
     </>
