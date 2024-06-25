@@ -1,65 +1,23 @@
-/*top */
-import anshika from "/mtt/top/anshika.png";
-import kalp from "/mtt/top/Kalp.png";
-import kasvi from "/mtt/top/kasvi.png";
-import sean from "/mtt/top/sean.png";
-
-/*v1 */
-import anni from "/mtt/v1/anni.png";
-import deepal from "/mtt/v1/deepal.png";
-import megha from "/mtt/v1/Megha.png";
-import rishab from "/mtt/v1/rishab.png";
-import suhani from "/mtt/v1/suhani.png";
-
-/*v2*/
-import kavya from "/mtt/v2/kavya.png";
-import khushi from "/mtt/v2/khushi.png";
-import shivam from "/mtt/v2/shivam.png";
-import shorya from "/mtt/v2/shorya.png";
-
-/*v3*/
-import aayush from "/mtt/v3/aayush.png";
-import bhoomi from "/mtt/v3/bhoomi.png";
-import dwij from "/mtt/v3/dwij.png";
-import mantra from "/mtt/v3/mantra.png";
-import parth from "/mtt/v3/parth.png";
-import tanisha from "/mtt/v3/tanisha.png";
-import vanya from "/mtt/v3/vanya.png";
-import vishal from "/mtt/v3/vishal.png";
-import yashvi from "/mtt/v3/yashvi.png";
-
-/*v4*/
-import divya from "/mtt/v4/divya.png";
-import hardi from "/mtt/v4/hardi.png";
-import hardik from "/mtt/v4/hardik.png";
-import harsh from "/mtt/v4/harsh.png";
-import ketkee from "/mtt/v4/ketkee.png";
-import mohal from "/mtt/v4/mohal.png";
-import natasha from "/mtt/v4/natasha.png";
-import nishika from "/mtt/v4/nishika.png";
-import rishav from "/mtt/v4/rishav.png";
-import saskhi from "/mtt/v4/saskhi.png";
-
 export const top = [
   {
     name: "Anshika Tiberwala",
     desg: "Vice Chairperson 1",
-    src: anshika,
+    src: "/mtt/top/anshika.png",
   },
   {
     name: "Kasvi Shah",
     desg: "Vice Chairperson 2",
-    src: kasvi,
+    src: "/mtt/top/kasvi.png",
   },
   {
     name: "Kalp Jain",
     desg: "Vice Chairperson 3",
-    src: kalp,
+    src: "/mtt/top/Kalp.png",
   },
   {
     name: "Sean Vogt",
     desg: "Vice Chairperson 4",
-    src: sean,
+    src: "/mtt/top/sean.png",
   },
 ];
 
@@ -67,27 +25,27 @@ export const V1 = [
   {
     name: "Rishabh Jain",
     desg: "Fintech Events",
-    src: rishab,
+    src: "/mtt/v1/rishab.png",
   },
   {
     name: "Megha Agarwal",
     desg: "Fintech Events",
-    src: megha,
+    src: "/mtt/v1/Megha.png",
   },
   {
     name: "Deepal Vora",
     desg: "Gaming Events",
-    src: deepal,
+    src: "/mtt/v1/deepal.png",
   },
   {
     name: "S. Aniruddha",
     desg: "Gaming Events",
-    src: anni,
+    src: "/mtt/v1/anni.png",
   },
   {
     name: "Suhani Shah",
     desg: "Informal Events",
-    src: suhani,
+    src: "/mtt/v1/suhani.png",
   },
 ];
 
@@ -95,22 +53,22 @@ export const V2 = [
   {
     name: "Shivam Sukhija",
     desg: "WORKSHOPS & SUMMITS",
-    src: shivam,
+    src: "/mtt/v2/shivam.png",
   },
   {
     name: "Khushi Dama",
     desg: "WORKSHOPS & SUMMITS",
-    src: khushi,
+    src: "/mtt/v2/khushi.png",
   },
   {
     name: "Shorya Jain",
     desg: "CORPORATE RELATIONS",
-    src: shorya,
+    src: "/mtt/v2/shorya.png",
   },
   {
     name: "Kavya Vora",
     desg: "TECHEXPO",
-    src: kavya,
+    src: "/mtt/v2/kavya.png",
   },
 ];
 
@@ -118,47 +76,47 @@ export const V3 = [
   {
     name: "Dwij Chheda",
     desg: "Marketing",
-    src: dwij,
+    src: "/mtt/v3/dwij.png",
   },
   {
     name: "Yashvi Dave",
     desg: "Public Relations",
-    src: yashvi,
+    src: "/mtt/v3/yashvi.png",
   },
   {
     name: "Vishal Nathwani",
     desg: "Finance",
-    src: vishal,
+    src: "/mtt/v3/vishal.png",
   },
   {
     name: "Bhumi Gada",
     desg: "Finance",
-    src: bhoomi,
+    src: "/mtt/v3/bhoomi.png",
   },
   {
     name: "aayush Chheda",
     desg: "Print Media",
-    src: aayush,
+    src: "/mtt/v3/aayush.png",
   },
   {
     name: "Mantra Savla",
     desg: "Print Media",
-    src: mantra,
+    src: "/mtt/v3/mantra.png",
   },
   {
     name: "Tanisha Pachori",
     desg: "Creatives",
-    src: tanisha,
+    src: "/mtt/v3/tanisha.png",
   },
   {
     name: "Vanya Panjabi",
     desg: "Hospitality",
-    src: vanya,
+    src: "/mtt/v3/vanya.png",
   },
   {
     name: "Parth Patel",
     desg: "Hospitality",
-    src: parth,
+    src: "/mtt/v3/parth.png",
   },
 ];
 
@@ -166,51 +124,51 @@ export const V4 = [
   {
     name: "Divya Suvarna",
     desg: "Management",
-    src: divya,
+    src: "/mtt/v4/divya.png",
   },
   {
     name: "Rishav Mukherjee",
     desg: "Management",
-    src: rishav,
+    src: "/mtt/v4/rishav.png",
   },
   {
     name: "Mohal Shah",
     desg: "Human Resources",
-    src: mohal,
+    src: "/mtt/v4/mohal.png",
   },
   {
     name: "Harsh Lathiya",
     desg: "Human Resources",
-    src: harsh,
+    src: "/mtt/v4/harsh.png",
   },
   {
     name: "Hardi Thakkar",
     desg: "Technicals",
-    src: hardi,
+    src: "/mtt/v4/hardi.png",
   },
   {
     name: "Hardik Malhotra",
     desg: "Technicals",
-    src: hardik,
+    src: "/mtt/v4/hardik.png",
   },
   {
     name: "Natasha Shah",
     desg: "RESEARCH & EDITORIALS",
-    src: natasha,
+    src: "/mtt/v4/natasha.png",
   },
   {
     name: "Sakshi Rai",
     desg: "RESEARCH & EDITORIALS",
-    src: saskhi,
+    src: "/mtt/v4/saskhi.png",
   },
   {
     name: "Ketkee Bhutkar",
     desg: "Digital Arts",
-    src: ketkee,
+    src: "/mtt/v4/ketkee.png",
   },
   {
     name: "Nishika Tulsyan",
     desg: "Digital Arts",
-    src: nishika,
+    src: "/mtt/v4/nishika.png",
   },
 ];
