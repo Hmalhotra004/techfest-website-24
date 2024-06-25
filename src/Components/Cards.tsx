@@ -29,7 +29,7 @@ type PropsC = {
   desg?: string;
 };
 
-const Card = ({ src, name, desg }: PropsC) => {
+export const Card = ({ src, name, desg }: PropsC) => {
   return (
     <>
       <Reveal y={100}>
@@ -41,30 +41,16 @@ const Card = ({ src, name, desg }: PropsC) => {
             <motion.img
               src={src}
               alt={name}
-              width={1000}
-              height={100}
               id={styles.pic}
             />
           </Reveal>
 
-          <motion.h6
-            initial={{ opacity: 0, x: -200 }}
-            whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
-            viewport={{ once: true }}
-            id={styles.desg}
-          >
-            {desg}
-          </motion.h6>
+          <Reveal x={-500}>
+            <h6 id={styles.desg}>{desg}</h6>
+          </Reveal>
 
           <Reveal x={-500}>
-            <motion.h3
-              // initial={{ opacity: 0, x: -200 }}
-              // whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
-              // viewport={{ once: true }}
-              id={styles.name}
-            >
-              {name}
-            </motion.h3>
+            <h3 id={styles.name}>{name}</h3>
           </Reveal>
         </div>
       </Reveal>

@@ -1,174 +1,174 @@
 export const top = [
   {
-    name: "Anshika Tiberwala",
+    Name: "Anshika Tiberwala",
+    img: "/mtt/top/anshika.png",
     desg: "Vice Chairperson 1",
-    src: "/mtt/top/anshika.png",
   },
   {
-    name: "Kasvi Shah",
+    Name: "Kasvi Shah",
+    img: "/mtt/top/kasvi.png",
     desg: "Vice Chairperson 2",
-    src: "/mtt/top/kasvi.png",
   },
   {
-    name: "Kalp Jain",
+    Name: "Kalp Jain",
+    img: "/mtt/top/Kalp.png",
     desg: "Vice Chairperson 3",
-    src: "/mtt/top/Kalp.png",
   },
   {
-    name: "Sean Vogt",
+    Name: "Sean Vogt",
+    img: "/mtt/top/sean.png",
     desg: "Vice Chairperson 4",
-    src: "/mtt/top/sean.png",
   },
 ];
 
 export const V1 = [
   {
-    name: "Rishabh Jain",
+    Name: "Rishabh Jain",
+    img: "/mtt/v1/rishab.png",
     desg: "Fintech Events",
-    src: "/mtt/v1/rishab.png",
   },
   {
-    name: "Megha Agarwal",
+    Name: "Megha Agarwal",
+    img: "/mtt/v1/Megha.png",
     desg: "Fintech Events",
-    src: "/mtt/v1/Megha.png",
   },
   {
-    name: "Deepal Vora",
+    Name: "Deepal Vora",
+    img: "/mtt/v1/deepal.png",
     desg: "Gaming Events",
-    src: "/mtt/v1/deepal.png",
   },
   {
-    name: "S. Aniruddha",
+    Name: "S. Aniruddha",
+    img: "/mtt/v1/anni.png",
     desg: "Gaming Events",
-    src: "/mtt/v1/anni.png",
   },
   {
-    name: "Suhani Shah",
+    Name: "Suhani Shah",
+    img: "/mtt/v1/suhani.png",
     desg: "Informal Events",
-    src: "/mtt/v1/suhani.png",
   },
 ];
 
 export const V2 = [
   {
-    name: "Shivam Sukhija",
+    Name: "Shivam Sukhija",
+    img: "/mtt/v2/shivam.png",
     desg: "WORKSHOPS & SUMMITS",
-    src: "/mtt/v2/shivam.png",
   },
   {
-    name: "Khushi Dama",
+    Name: "Khushi Dama",
+    img: "/mtt/v2/khushi.png",
     desg: "WORKSHOPS & SUMMITS",
-    src: "/mtt/v2/khushi.png",
   },
   {
-    name: "Shorya Jain",
+    Name: "Shorya Jain",
+    img: "/mtt/v2/shorya.png",
     desg: "CORPORATE RELATIONS",
-    src: "/mtt/v2/shorya.png",
   },
   {
-    name: "Kavya Vora",
+    Name: "Kavya Vora",
+    img: "/mtt/v2/kavya.png",
     desg: "TECHEXPO",
-    src: "/mtt/v2/kavya.png",
   },
 ];
 
 export const V3 = [
   {
-    name: "Dwij Chheda",
+    Name: "Dwij Chheda",
+    img: "/mtt/v3/dwij.png",
     desg: "Marketing",
-    src: "/mtt/v3/dwij.png",
   },
   {
-    name: "Yashvi Dave",
+    Name: "Yashvi Dave",
+    img: "/mtt/v3/yashvi.png",
     desg: "Public Relations",
-    src: "/mtt/v3/yashvi.png",
   },
   {
-    name: "Vishal Nathwani",
+    Name: "Vishal Nathwani",
+    img: "/mtt/v3/vishal.png",
     desg: "Finance",
-    src: "/mtt/v3/vishal.png",
   },
   {
-    name: "Bhumi Gada",
+    Name: "Bhumi Gada",
+    img: "/mtt/v3/bhoomi.png",
     desg: "Finance",
-    src: "/mtt/v3/bhoomi.png",
   },
   {
-    name: "aayush Chheda",
+    Name: "aayush Chheda",
+    img: "/mtt/v3/aayush.png",
     desg: "Print Media",
-    src: "/mtt/v3/aayush.png",
   },
   {
-    name: "Mantra Savla",
+    Name: "Mantra Savla",
+    img: "/mtt/v3/mantra.png",
     desg: "Print Media",
-    src: "/mtt/v3/mantra.png",
   },
   {
-    name: "Tanisha Pachori",
+    Name: "Tanisha Pachori",
+    img: "/mtt/v3/tanisha.png",
     desg: "Creatives",
-    src: "/mtt/v3/tanisha.png",
   },
   {
-    name: "Vanya Panjabi",
+    Name: "Vanya Panjabi",
+    img: "/mtt/v3/vanya.png",
     desg: "Hospitality",
-    src: "/mtt/v3/vanya.png",
   },
   {
-    name: "Parth Patel",
+    Name: "Parth Patel",
+    img: "/mtt/v3/parth.png",
     desg: "Hospitality",
-    src: "/mtt/v3/parth.png",
   },
 ];
 
 export const V4 = [
   {
-    name: "Divya Suvarna",
+    Name: "Divya Suvarna",
+    img: "/mtt/v4/divya.png",
     desg: "Management",
-    src: "/mtt/v4/divya.png",
   },
   {
-    name: "Rishav Mukherjee",
+    Name: "Rishav Mukherjee",
+    img: "/mtt/v4/rishav.png",
     desg: "Management",
-    src: "/mtt/v4/rishav.png",
   },
   {
-    name: "Mohal Shah",
+    Name: "Mohal Shah",
+    img: "/mtt/v4/mohal.png",
     desg: "Human Resources",
-    src: "/mtt/v4/mohal.png",
   },
   {
-    name: "Harsh Lathiya",
+    Name: "Harsh Lathiya",
+    img: "/mtt/v4/harsh.png",
     desg: "Human Resources",
-    src: "/mtt/v4/harsh.png",
   },
   {
-    name: "Hardi Thakkar",
+    Name: "Hardi Thakkar",
+    img: "/mtt/v4/hardi.png",
     desg: "Technicals",
-    src: "/mtt/v4/hardi.png",
   },
   {
-    name: "Hardik Malhotra",
+    Name: "Hardik Malhotra",
+    img: "/mtt/v4/hardik.png",
     desg: "Technicals",
-    src: "/mtt/v4/hardik.png",
   },
   {
-    name: "Natasha Shah",
+    Name: "Natasha Shah",
+    img: "/mtt/v4/natasha.png",
     desg: "RESEARCH & EDITORIALS",
-    src: "/mtt/v4/natasha.png",
   },
   {
-    name: "Sakshi Rai",
+    Name: "Sakshi Rai",
+    img: "/mtt/v4/saskhi.png",
     desg: "RESEARCH & EDITORIALS",
-    src: "/mtt/v4/saskhi.png",
   },
   {
-    name: "Ketkee Bhutkar",
+    Name: "Ketkee Bhutkar",
+    img: "/mtt/v4/ketkee.png",
     desg: "Digital Arts",
-    src: "/mtt/v4/ketkee.png",
   },
   {
-    name: "Nishika Tulsyan",
+    Name: "Nishika Tulsyan",
+    img: "/mtt/v4/nishika.png",
     desg: "Digital Arts",
-    src: "/mtt/v4/nishika.png",
   },
 ];

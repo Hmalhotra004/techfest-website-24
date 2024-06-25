@@ -74,13 +74,13 @@ $size-11xl: 10rem; /*160px*/
 }
 
 @mixin h1 {
-  font-size: clamp($size-2xl, 3vw, $size-5xl);
-  font-weight: 700;
+  font-size: clamp($size-5xl, 10vw, $size-7xl);
+  font-weight: bold;
 }
 
 @mixin h2 {
-  font-size: clamp($size-xl, 2vw, $size-4xl);
-  font-weight: 600;
+  font-size: clamp($size-2xl, 3vw, $size-4xl);
+  font-weight: bold;
 }
 
 @mixin p {
