@@ -50,7 +50,7 @@ const Card = ({ src, name, desg }: PropsC) => {
 
           <motion.h6
             initial={{ opacity: 0, x: -200 }}
-            whileInView={{ opacity: 1, x: 0, transition: { duration: 0.4 } }}
+            whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
             viewport={{ once: true }}
             id={styles.desg}
           >
@@ -59,7 +59,7 @@ const Card = ({ src, name, desg }: PropsC) => {
 
           <motion.h3
             initial={{ opacity: 0, x: -200 }}
-            whileInView={{ opacity: 1, x: 0, transition: { duration: 0.4 } }}
+            whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
             viewport={{ once: true }}
             id={styles.name}
           >
