@@ -1,68 +1,56 @@
-import Iyengar from "@/assets/summit/Aadi.jpg";
-import anish from "@/assets/summit/anish.jpg";
-import arjun from "@/assets/summit/arjun vaidya.jpg";
-import sushant from "@/assets/summit/Bindal.jpg";
-import Ecom from "@/assets/summit/ECOM Tushar.jpg";
-import FinCocktail from "@/assets/summit/fin2.jpg";
-import Pratham from "@/assets/summit/Prasoon.jpeg";
-import pranay from "@/assets/summit/Saxena.jpeg";
-import surya from "@/assets/summit/surya.jpeg";
-import utsav from "@/assets/summit/Utsav.jpg";
-import vishal from "@/assets/summit/Vishal.jpeg";
-
 export const panel_1 = [
   {
     Name: "Aaditya Iyengar",
-    img: Iyengar,
+    img: "/summit/Aadi.jpg",
   },
   {
     Name: "Ecom Tushar",
-    img: Ecom,
+    img: "/summit/ECOM Tushar.jpg",
   },
   {
     Name: "Pratham Prasoon",
-    img: Pratham,
+    img: "/summit/Prasoon.jpeg",
   },
   {
     Name: "FinCocktail",
-    img: FinCocktail,
+    img: "/summit/fin2.jpg",
   },
 ];
 
 export const panel_2 = [
   {
     Name: "Utsav Satkar",
-    img: utsav,
+    img: "/summit/Utsav.jpg",
   },
   {
     Name: "Vishal Rasika",
-    img: vishal,
+    img: "/summit/Vishal.jpeg",
   },
 ];
 
 export const artists = [
   {
     Name: "Surya Venkat",
-    img: surya,
+    img: "/summit/surya.jpeg",
   },
   {
     Name: "Pranay Saksena",
-    img: pranay,
+    img: "/summit/Saxena.jpeg",
   },
   {
     Name: "Anish Chabbra",
-    img: anish,
+    img: "/summit/anish.jpg",
   },
 ];
 
 export const speaker = [
   {
     Name: "Arjun Vaidya",
-    img: arjun,
+    img: "/summit/arjun vaidya.jpg",
   },
   {
     Name: "Sushant Bidal",
-    img: sushant,
+    img: "/summit/Bindal.jpg",
   },
 ];
 
