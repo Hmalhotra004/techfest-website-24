@@ -4,7 +4,7 @@
   padding: 10px;
   background-color: $cont;
   border-radius: 10px;
-  width: 15rem;
+  width: 16rem;
 }
 
 #pic {
@@ -34,6 +34,10 @@
 @media (min-width: 320px) {
   #pic_cont {
     margin-bottom: 0rem;
+    width: 12rem;
+  }
+  #name {
+    font-size: $size-lg;
   }
 }
 
@@ -45,13 +49,18 @@
 
 // sm
 @media (min-width: 640px) {
-  #pic_cont {
-    margin-bottom: 1rem;
-  }
 }
 
 // md
-// @media (min-width: 768px) {}
+@media (min-width: 768px) {
+  #pic_cont {
+    margin-bottom: 1rem;
+    width: 16rem;
+  }
+  #name {
+    font-size: $size-2xl;
+  }
+}
 
 /* lg */
 // @media (min-width: 1024px) {}

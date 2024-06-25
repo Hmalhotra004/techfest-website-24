@@ -1,12 +1,11 @@
 import styles from "@/Styles/Card.module.scss";
 import { motion } from "framer-motion";
-import Image, { StaticImageData } from "next/image";
 import Reveal from "./Reveal";
 
 type PropsO = {
   data: {
     Name: string;
-    img: StaticImageData;
+    img: string;
     desg?: string;
   }[];
 };
@@ -25,7 +24,7 @@ const Cards = ({ data }: PropsO) => (
 );
 
 type PropsC = {
-  src: StaticImageData;
+  src: string;
   name: string;
   desg?: string;
 };
@@ -39,7 +38,7 @@ const Card = ({ src, name, desg }: PropsC) => {
             y={50}
             du={0.8}
           >
-            <Image
+            <motion.img
               src={src}
               alt={name}
               width={1000}
