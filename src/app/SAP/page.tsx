@@ -15,4 +15,3 @@ const SAP = () => {
 };
 
 export default SAP;
- 
