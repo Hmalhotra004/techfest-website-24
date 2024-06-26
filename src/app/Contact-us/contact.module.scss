@@ -4,3 +4,87 @@
   background-image: url("/bg/summitbg-c.png");
   background-size: cover;
 }
+
+#form {
+  margin-top: 1rem;
+  @include flex-cc;
+  gap: 1.5rem;
+  // border: 1px solid white;
+  padding: 2.5rem;
+
+  input {
+    background-color: $oilblack;
+    padding: 0.5rem;
+    border: 1px solid white;
+    width: clamp(5rem, 100%, 50rem);
+    color: white;
+  }
+
+  textarea {
+    background-color: $oilblack;
+    padding: 0.5rem;
+    color: white;
+    border: 1px solid white;
+    // width: clamp(5rem, 100%, 100rem);
+    height: 15rem;
+  }
+
+  button {
+    background-color: #fd6262;
+    width: 85%;
+    padding: 10px;
+    color: $oilblack;
+    font-size: 1rem;
+  }
+}
+
+#left {
+  @include flex-cc;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+// 3xs
+@media (min-width: 320px) {
+  #form {
+    textarea {
+      width: 18rem;
+    }
+  }
+  #main {
+    @include flex-cc;
+    gap: 1.5rem;
+  }
+}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+@media (min-width: 640px) {
+  #form {
+    textarea {
+      width: 30rem;
+    }
+  }
+}
+
+// md
+@media (min-width: 768px) {
+  #main {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}
