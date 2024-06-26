@@ -8,9 +8,9 @@ import styles from "./ts.module.scss";
 const TechSummit = () => {
   return (
     <section className={styles.bg}>
-      <main className={`container ${styles.ts}`}>
+      <main className={`container mainP`}>
         <Reveal x={-800}>
-          <h1 className={styles.header}>TECHSUMMIT</h1>
+          <h1 className="heading">TECHSUMMIT</h1>
         </Reveal>
 
         <Reveal x={-800}>
