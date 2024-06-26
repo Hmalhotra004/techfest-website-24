@@ -25,16 +25,21 @@
     padding: 0.5rem;
     color: white;
     border: 1px solid white;
-    // width: clamp(5rem, 100%, 100rem);
     height: 15rem;
   }
 
   button {
     background-color: #fd6262;
+    color: $oilblack;
     width: 85%;
     padding: 10px;
-    color: $oilblack;
     font-size: 1rem;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: $oilblack;
+      color: #fd6262;
+    }
   }
 }
 
