@@ -27,7 +27,7 @@ const ContactUs = () => {
 
   return (
     <section className={styles.bg}>
-      <main className={`container mainP`}>
+      <main className={`container mainP ${styles.mainPad}`}>
         <Reveal x={-800}>
           <h1 className="heading">Contact Us</h1>
         </Reveal>
