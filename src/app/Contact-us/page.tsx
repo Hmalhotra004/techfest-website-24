@@ -2,7 +2,6 @@
 import Reveal from "@/Components/Reveal";
 import { useRef } from "react";
 import styles from "./contact.module.scss";
-import Email from "@/Hooks/Email";
 
 const ContactUs = () => {
   const nameRef = useRef<HTMLInputElement>(null);
@@ -18,7 +17,7 @@ const ContactUs = () => {
     const phone = phoneRef.current?.value;
     const message = messageRef.current?.value;
 
-    Email(name, email,phone,message)
+    // Email(name, email, message, phone);
 
     if (nameRef.current) nameRef.current.value = "";
     if (emailRef.current) emailRef.current.value = "";
