@@ -1,19 +1,15 @@
-import "@/Styles/Dropdown.module.scss";
+import styles from "@/Styles/Dropdown.module.scss";
 
 type Props = {
   name: string;
-  // children: any;
+  children: JSX.Element;
 };
 
-const DropDown = ({ name,  ...props }: Props) => {
+const DropDown = ({ name, children }: Props) => {
   return (
-    <div className="dropdown">
-      <button className="dropbtn">{name}</button>
-      <div className="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+    <div id={styles.dropdown}>
+      <button id={styles.dropbtn}>{name}</button>
+      <div id={styles.dropdownContent}>{children}</div>
     </div>
   );
 };

@@ -9,6 +9,10 @@
   color: $active;
 }
 
+.logo {
+  width: clamp(10rem, 100%, 20rem);
+}
+
 .links {
   list-style: none;
   padding: 0;
@@ -37,15 +41,15 @@
     a {
       margin-right: auto;
     }
-
-    .logo {
-      width: 15rem;
-    }
   }
 
-  // .links {
-  //   display: none;
-  // }
+  #hidden {
+    display: block;
+  }
+
+  #not {
+    display: none;
+  }
 }
 
 // 2xs
@@ -70,20 +74,22 @@
 
   .lists {
     @include flex-c;
-    margin: 0 0.5rem;
+    margin: 0 0.6rem;
   }
 
   .logo {
     margin-right: auto;
     margin-left: 1px;
-    width: 20rem !important;
   }
 }
 
 /* lg */
 @media (min-width: 1024px) {
-  .lists {
-    margin: 0 15px;
+  #hidden {
+    display: none;
+  }
+  #not {
+    @include flex-c;
   }
 }
 

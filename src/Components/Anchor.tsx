@@ -6,15 +6,17 @@ import { usePathname } from "next/navigation";
 type Props = {
   children: string;
   route: string;
+  id?: string;
 };
 
-const Anchor = ({ children, route }: Props) => {
+const Anchor = ({ children, route, id }: Props) => {
   const pathname = usePathname();
   return (
     <li className={styles.lists}>
       <Link
         href={route}
         className={pathname === route ? styles.active : ""}
+        id={id}
       >
         {children}
       </Link>
