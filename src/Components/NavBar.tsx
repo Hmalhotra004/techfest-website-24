@@ -20,17 +20,9 @@ const NavBar = () => {
           <Anchor route="/TechExpo">TechExpo</Anchor>
           <Anchor route="/TechSummit">TechSummit</Anchor>
           <Anchor route="/Sponsors">Sponsors</Anchor>
-          <Anchor
-            route="/Meet-The-Team"
-            id={styles.not}
-          >
-            Meet The Team
-          </Anchor>
+          <Anchor route="/Meet-The-Team">Team</Anchor>
           <DropDown name="More">
             <>
-              <div id={styles.hidden}>
-                <Anchor route="/Meet-The-Team">Meet The Team</Anchor>
-              </div>
               <Anchor route="/SAP">SAP</Anchor>
               <Anchor route="/Contact-us">Contact Us</Anchor>
               <Anchor route="/About-us">About Us</Anchor>

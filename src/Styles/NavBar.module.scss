@@ -42,14 +42,6 @@
       margin-right: auto;
     }
   }
-
-  #hidden {
-    display: block;
-  }
-
-  #not {
-    display: none;
-  }
 }
 
 // 2xs
@@ -85,11 +77,9 @@
 
 /* lg */
 @media (min-width: 1024px) {
-  #hidden {
-    display: none;
-  }
-  #not {
+  .lists {
     @include flex-c;
+    margin: 0 0.8rem;
   }
 }
 
