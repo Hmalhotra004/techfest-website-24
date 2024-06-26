@@ -2,11 +2,12 @@
 import Reveal from "@/Components/Reveal";
 import { useRef } from "react";
 import styles from "./contact.module.scss";
+import Email from "@/Hooks/Email";
 
 const ContactUs = () => {
   const nameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
-  const passRef = useRef<HTMLInputElement>(null);
+  const phoneRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -14,14 +15,14 @@ const ContactUs = () => {
 
     const name = nameRef.current?.value;
     const email = emailRef.current?.value;
-    const password = passRef.current?.value;
+    const phone = phoneRef.current?.value;
     const message = messageRef.current?.value;
 
-    //api func
+    Email(name, email,phone,message)
 
     if (nameRef.current) nameRef.current.value = "";
     if (emailRef.current) emailRef.current.value = "";
-    if (passRef.current) passRef.current.value = "";
+    if (phoneRef.current) phoneRef.current.value = "";
     if (messageRef.current) messageRef.current.value = "";
   };
 
@@ -56,7 +57,7 @@ const ContactUs = () => {
                 type="tel"
                 id="phone"
                 placeholder="Phone"
-                ref={passRef}
+                ref={phoneRef}
                 required
               />
             </div>
