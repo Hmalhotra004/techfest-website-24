@@ -19,8 +19,8 @@ const NavBar = () => {
           </DropDown>
           <Anchor route="/TechExpo">TechExpo</Anchor>
           <Anchor route="/TechSummit">TechSummit</Anchor>
-          <Anchor route="/Sponsors">Sponsors</Anchor>
           <Anchor route="/Meet-The-Team">Team</Anchor>
+          <Anchor route="/Sponsors">Sponsors</Anchor>
           <DropDown name="More">
             <>
               <Anchor route="/SAP">SAP</Anchor>
