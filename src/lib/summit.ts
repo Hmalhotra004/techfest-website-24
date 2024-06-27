@@ -39,7 +39,7 @@ export const artists = [
   },
   {
     Name: "Anish Chabbra",
-    img: "/summit/anish.jpg",
+    img: "/summit/anish.png",
   },
 ];
 
