@@ -1,0 +1,90 @@
+@import "../../app/utils.scss";
+
+.bg {
+  background-color: $oilblack;
+}
+
+.header1 {
+  @include h1;
+  font-family: "Poppins", sans-serif;
+}
+
+.header2 {
+  font-size: clamp($size-2xl, 10vw, $size-6xl);
+  font-family: "Chelsea Market", system-ui;
+  text-align: center;
+}
+
+.header3 {
+  font-size: clamp($size-base, 2vw, $size-3xl);
+  font-family: "Chelsea Market", system-ui;
+  text-align: center;
+}
+
+.para {
+  font-family: "Chelsea Market", system-ui;
+  font-size: clamp($size-s, 2vw, $size-3xl);
+  text-align: center;
+}
+
+.para2 {
+  font-family: "Chelsea Market", system-ui;
+  font-size: clamp($size-s, 1.5vw, $size-2xl);
+  text-align: center;
+}
+
+// 3xs
+@media (min-width: 320px) {
+  .header2 {
+    margin: 1rem 0;
+  }
+
+  .header3 {
+    margin: 1rem 0;
+  }
+
+  .para {
+    margin: 0.5rem;
+  }
+
+  .para2 {
+    margin: 0.2rem 0;
+  }
+}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+// @media (min-width: 640px) {}
+
+// md
+@media (min-width: 768px) {
+  .header2 {
+    margin: 2rem 0;
+  }
+
+  .header3 {
+    margin: 1rem 0;
+  }
+
+  .para {
+    margin: 1rem 0;
+  }
+
+  .para2 {
+    margin: 0.5rem 0;
+  }
+}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}
