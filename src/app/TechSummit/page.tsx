@@ -10,7 +10,7 @@ const TechSummit = () => {
     <section className={styles.bg}>
       <main className={`container mainP`}>
         <Reveal x={-800}>
-          <h1 className="heading">TECHSUMMIT</h1>
+          <h1 className={styles.header1}>TECHSUMMIT</h1>
         </Reveal>
 
         <Reveal x={-800}>
