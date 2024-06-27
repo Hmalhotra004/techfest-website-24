@@ -20,8 +20,8 @@ export const game = [
     ru: [`The event will follow the format of eliminations, which will take place online. After round 1, the rest of the rounds along with the finals will occur offline in N.M. College.`, `Participants must join the allocated room 10 minutes before the match starts.`, `All participants should be present in their respective slots. If anyone is found in another slot they will be kicked from the room.`, `If anyone is found using unfair means or hacking their entire squad will be disqualified immediately. Along with this, the ongoing match will be canceled and a rematch will be held.`, `Teaming up with other squads is strictly prohibited. If anyone is found teaming up then their entire squad will be disqualified immediately.`, `The room ID and password will be shared to the group/squad leader.`, `The updated/latest version of the game must be installed in the devices being used by participants. All the 3 maps i.e. Erangle, Miramar and Sanhok should also be downloaded.`, `Participants must join with their registered ID only.`, `Using any non-registered ID will lead to immediate disqualification.`],
   },
   {
-    title: ``,
-    p: ``,
+    title: `Brutal Fatality`,
+    p: `Warriors, Wrestlers and Fighters alike! The realm is calling upon you to prove your might in the most intense tournament ever witnessed. The ultimate showdown is here, and so is your chance to etch your name in the history of all player vs. player games. Featuring the universes of Mortal Kombat, Tekken and WWE in an epic crossover we never knew we needed, it’s time to prove yourself by taking the throne and ruling over all three worlds. Sharpen your blades, pump up your fists, and get ready to go all out in this intense battle where only the strongest will come out victorious.`,
     li: [``, ``, ``],
     ru: [``, ``, ``],
   },
