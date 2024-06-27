@@ -1,4 +1,4 @@
-@import "../../app/utils.scss";
+@import "../app/utils.scss";
 
 .bg {
   background-color: $oilblack;
@@ -68,6 +68,10 @@
 
   .header3 {
     margin: 1rem 0;
+  }
+
+  .para {
+    margin-bottom: 1rem;
   }
 
   .para2 {

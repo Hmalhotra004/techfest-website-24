@@ -1,7 +1,7 @@
 "use client";
 import RegiBtn from "@/Components/RegiBtn";
 import Reveal from "@/Components/Reveal";
-import { game } from "@/lib/gaming";
+import { fin } from "@/lib/fintech";
 import styles from "@/Styles/events.module.scss";
 
 const page = () => {
@@ -9,11 +9,11 @@ const page = () => {
     <section className={styles.bg}>
       <main className={`container mainP`}>
         <Reveal x={-800}>
-          <h1 className={styles.header1}>Gaming Events</h1>
+          <h1 className={styles.header1}>Fintech Events</h1>
         </Reveal>
         <RegiBtn />
 
-        {game.map((data, idx) => {
+        {fin.map((data, idx) => {
           return (
             <>
               <Reveal
@@ -57,8 +57,6 @@ const page = () => {
             </>
           );
         })}
-
-        <div style={{ margin: "5rem 0" }}></div>
       </main>
     </section>
   );

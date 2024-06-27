@@ -19,22 +19,25 @@ export const game = [
     li: [`No. of Participants: 100 Squads (Max 4 people in one squad)`, `No. of Rounds: Elims + Finals`, `Venue: Online + Classroom`, `No. of Podiums: 2`],
     ru: [`The event will follow the format of eliminations, which will take place online. After round 1, the rest of the rounds along with the finals will occur offline in N.M. College.`, `Participants must join the allocated room 10 minutes before the match starts.`, `All participants should be present in their respective slots. If anyone is found in another slot they will be kicked from the room.`, `If anyone is found using unfair means or hacking their entire squad will be disqualified immediately. Along with this, the ongoing match will be canceled and a rematch will be held.`, `Teaming up with other squads is strictly prohibited. If anyone is found teaming up then their entire squad will be disqualified immediately.`, `The room ID and password will be shared to the group/squad leader.`, `The updated/latest version of the game must be installed in the devices being used by participants. All the 3 maps i.e. Erangle, Miramar and Sanhok should also be downloaded.`, `Participants must join with their registered ID only.`, `Using any non-registered ID will lead to immediate disqualification.`],
   },
+
   {
     title: `Brutal Fatality`,
     p: `Warriors, Wrestlers and Fighters alike! The realm is calling upon you to prove your might in the most intense tournament ever witnessed. The ultimate showdown is here, and so is your chance to etch your name in the history of all player vs. player games. Featuring the universes of Mortal Kombat, Tekken and WWE in an epic crossover we never knew we needed, it’s time to prove yourself by taking the throne and ruling over all three worlds. Sharpen your blades, pump up your fists, and get ready to go all out in this intense battle where only the strongest will come out victorious.`,
-    li: [``, ``, ``],
-    ru: [``, ``, ``],
+    li: [`No. of Participants: 48 participants`, `No. of Rounds: Knockouts`, `Venue: TBD`, `No. of Podiums: 2`],
+    ru: [`Each individual must register beforehand for the event. On the spot registration will also be permitted. `, `Players will be allotted a game from three games namely Mortal Kombat, Tekken and WWE, through a random spin of a wheel with all three options. They will have to play a best of 3 with 3 matches of the given game and compete against each other.`, `The finals will consist of another best of 3, where each round will be one of the three games alternatively, i.e, one round of Mortal Kombat, one round of Tekken and one round of WWE.`, `The event will follow a knockout format, with a cap of 48 participants.`],
   },
+
   {
-    title: ``,
-    p: ``,
-    li: [``, ``, ``],
-    ru: [``, ``, ``],
+    title: `Rage Quit`,
+    p: `Brave climbers, the summit challenge has descended upon the treacherous landscapes of Getting Over It. Prepare to face the most daring hikes, perplexing obstacles, and gravity-defying feats as you strive to conquer the summit whilst trapped in a cauldron with your only savior being the rusty, but trusty hammer. Only the most courageous of climbers will triumph over adversity and secure their place amongst the elite summit conquerors!`,
+    li: [`No. of Participants: Unlimited`, `No. of Rounds: Highscore`, `Venue: Classroom`, `No. of Podiums: 2`],
+    ru: [`Each individual must register beforehand for the event. On the spot registration will also be permitted.`, `Players will be given a maximum of 3 attempts to play the game, and will have to aim to make as much progress as possible under the time limit of 5 minutes. Priority to play will be given to those with a lesser number of attempts.`, `At the end of 5 minutes, the participant will be requested to stop and step away from the keyboard. A screenshot of their position in the game will be taken to record their progress. The participants’ furthest point will not be counted, instead their position at the end of the timer will be counted.`, `At the end of the day, each participants’ best attempt will be considered and evaluated. The participant that managed to reach the furthest at the end of the time limit will be crowned the winner.`, `The event will follow a highscore format, where the player performing the best will win depending on their individual performance.`],
   },
+
   {
-    title: ``,
-    p: ``,
-    li: [``, ``, ``],
-    ru: [``, ``, ``],
+    title: `Impasta`,
+    p: `Space travelers, it's time to step off the spaceship and onto the real-life terrain for an Among Us experience like never before. This event brings the social deduction and strategy of Among Us into the physical world, where friendships will be tested, alliances forged, and impostors unmasked. Navigate through your tasks as crewmates and beware of sabotages while trying to deduce suspects. Hold emergency meetings to discuss information, share suspicions and vote people off the ship. Adapt to the chaos and prove your crew's resilience in the face of adversity, or partner up with your impostor criminal and go crazy on a killing spree whilst avoiding being caught!`,
+    li: [`No. of Participants: 50 (10 per match)`, `No. of Rounds: 5`, `Venue: Multiple locations at N.M. College`, `No. of Podiums: 10 (2 per match)`],
+    ru: [`Each individual must register beforehand for the event.`, `There will be 5 matches taking place, where 2 winners will be decided at the end. If both the impostors win, they will take the podiums, and if crewmates successfully unmask the impostors, the two crewmates that contributed the most to finding the criminals or completing the tasks will be declared the winners. There will be 5 matches taking place, where 2 winners will be decided at the end. If both the impostors`, `As a crewmate, you will have to complete the given tasks, keep an eye out for any evidence (or dead bodies), and protect the ship from sabotages. As an impostor, you will have to fake tasks and pretend to be a crewmate, keep an eye out for crewmates, sabotage the ship and kill without being caught.`, `The organizing team will be positioned throughout the area in case of any discrepancies and will provide assistance during the entirety of the game. They will help ease communication between the team, regarding when bodies are reported and meetings must be held`],
   },
 ];
