@@ -6,13 +6,13 @@
 }
 
 .header1 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--pop);
   @include h1;
   color: white;
 }
 
 .header2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--pop);
   font-size: clamp($size-2xl, 3vw, $size-5xl);
   color: white;
   margin-top: 1.5rem;
