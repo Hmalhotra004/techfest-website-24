@@ -2,7 +2,7 @@
 import RegiBtn from "@/Components/RegiBtn";
 import Reveal from "@/Components/Reveal";
 import { informal } from "@/lib/informal";
-import styles from "./informal.module.scss";
+import styles from "@/Styles/events.module.scss";
 
 const page = () => {
   return (

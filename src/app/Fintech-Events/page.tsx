@@ -57,6 +57,7 @@ const page = () => {
             </>
           );
         })}
+        <div style={{ margin: "3rem 0" }}></div>
       </main>
     </section>
   );
