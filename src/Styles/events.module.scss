@@ -13,14 +13,14 @@
 .header2 {
   color: $light-blue;
   font-size: clamp($size-2xl, 4vw, $size-6xl);
-  font-family: "Chelsea Market", system-ui;
+  font-family: var(--chelsea);
   text-align: center;
 }
 
 .headerT {
   color: $light-blue;
   font-size: clamp($size-2xl, 2vw, $size-5xl);
-  font-family: "Chelsea Market", system-ui;
+  font-family: var(--chelsea);
   text-align: center;
   text-transform: uppercase;
 }
@@ -28,18 +28,18 @@
 .header3 {
   color: $blue;
   font-size: clamp($size-base, 2vw, $size-3xl);
-  font-family: "Chelsea Market", system-ui;
+  font-family: var(--chelsea);
   text-align: center;
 }
 
 .para {
-  font-family: "Chelsea Market", system-ui;
+  font-family: var(--chelsea);
   font-size: clamp($size-s, 2vw, $size-3xl);
   text-align: center;
 }
 
 .para2 {
-  font-family: "Chelsea Market", system-ui;
+  font-family: var(--chelsea);
   font-size: clamp($size-s, 1.5vw, $size-2xl);
   text-align: center;
 }
