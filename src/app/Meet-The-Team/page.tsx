@@ -9,7 +9,7 @@ const MeetTheTeam = () => {
     <section className={styles.bg}>
       <section className={`container mainP`}>
         <Reveal x={-800}>
-          <h1 className="heading">Meet The Team</h1>
+          <h1 className={styles.header1}>Meet The Team</h1>
         </Reveal>
 
         <Reveal x={-400}>

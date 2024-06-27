@@ -5,8 +5,15 @@
   background-size: cover;
 }
 
+.header1 {
+  font-family: "Poppins", sans-serif;
+  @include h1;
+  color: white;
+}
+
 .header2 {
-  @include h2;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp($size-2xl, 3vw, $size-5xl);
   color: white;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
