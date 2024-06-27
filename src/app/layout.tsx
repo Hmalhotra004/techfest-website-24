@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   description: "TechFest of NM College",
 };
 
-const font = `${poppins.variable} ${chelsea.variable} ${montserrat.variable} inter.classname`;
+const fonts = `${poppins.variable} ${chelsea.variable} ${montserrat.variable} ${inter.className}`;
 
 export default function RootLayout({
   children,
@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font}>
+      <body className={fonts}>
         <NavBar />
         {children}
         <Footer />
