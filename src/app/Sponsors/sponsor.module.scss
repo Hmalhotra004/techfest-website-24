@@ -1,0 +1,10 @@
+@import "../utils.scss";
+
+.bg {
+  background-color: $oilblack;
+}
+
+.header1 {
+  @include h1;
+  font-family: var(--pop);
+}
