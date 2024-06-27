@@ -21,6 +21,7 @@
   font-size: clamp($size-2xl, 2vw, $size-5xl);
   font-family: "Chelsea Market", system-ui;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .header3 {
@@ -45,7 +46,7 @@
 // 3xs
 @media (min-width: 320px) {
   .header2 {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     margin-bottom: 0.5rem;
   }
 

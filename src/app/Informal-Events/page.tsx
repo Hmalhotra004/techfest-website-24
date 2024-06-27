@@ -30,9 +30,16 @@ const page = () => {
                 <h2 className={styles.headerT}>{data.theme}</h2>
               </Reveal>
 
-              <Reveal x={-400}>
-                <p className={styles.para}>{data.p}</p>
-              </Reveal>
+              {data.p.map((para, idx) => {
+                return (
+                  <Reveal
+                    x={-400}
+                    key={idx}
+                  >
+                    <p className={styles.para}>{para}</p>
+                  </Reveal>
+                );
+              })}
 
               {data.li.map((li, idx) => {
                 return (
@@ -64,6 +71,8 @@ const page = () => {
             </>
           );
         })}
+
+        <div style={{ margin: "3rem 0" }}></div>
       </main>
     </section>
   );
