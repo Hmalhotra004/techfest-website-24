@@ -39,19 +39,21 @@ const page = () => {
               })}
 
               <Reveal x={-400}>
-                <h3 className={styles.header3}>Rules & Regulations</h3>
-              </Reveal>
+                <details>
+                  <summary className={styles.header3}>Rules & Regulations</summary>
 
-              {data.ru.map((ru, idx) => {
-                return (
-                  <Reveal
-                    x={-400}
-                    key={idx}
-                  >
-                    <li className={styles.para2}>{ru}</li>
-                  </Reveal>
-                );
-              })}
+                  {data.ru.map((ru, idx) => {
+                    return (
+                      <Reveal
+                        x={-400}
+                        key={idx}
+                      >
+                        <li className={styles.para2}>{ru}</li>
+                      </Reveal>
+                    );
+                  })}
+                </details>
+              </Reveal>
             </>
           );
         })}
