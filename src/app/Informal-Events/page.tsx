@@ -2,7 +2,7 @@
 import RegiBtn from "@/Components/RegiBtn";
 import Reveal from "@/Components/Reveal";
 import { informal } from "@/lib/informal";
-import styles from "@/Styles/events.module.scss";
+import styles from "./informal.module.scss";
 
 const page = () => {
   return (
@@ -21,6 +21,13 @@ const page = () => {
                 key={idx}
               >
                 <h2 className={styles.header2}>{data.title}</h2>
+              </Reveal>
+
+              <Reveal
+                x={-400}
+                key={idx}
+              >
+                <h2 className={styles.headerT}>{data.theme}</h2>
               </Reveal>
 
               <Reveal x={-400}>

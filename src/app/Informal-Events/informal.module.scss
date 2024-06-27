@@ -1,4 +1,4 @@
-@import "../app/utils.scss";
+@import "../utils.scss";
 
 .bg {
   background-color: $oilblack;
@@ -12,6 +12,13 @@
 .header2 {
   color: $light-blue;
   font-size: clamp($size-2xl, 4vw, $size-6xl);
+  font-family: "Chelsea Market", system-ui;
+  text-align: center;
+}
+
+.headerT {
+  color: $light-blue;
+  font-size: clamp($size-2xl, 2vw, $size-5xl);
   font-family: "Chelsea Market", system-ui;
   text-align: center;
 }
@@ -38,11 +45,20 @@
 // 3xs
 @media (min-width: 320px) {
   .header2 {
-    margin: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .headerT {
+    margin-bottom: 1rem;
   }
 
   .header3 {
     margin: 1rem 0;
+  }
+
+  .para {
+    margin-bottom: 1rem;
   }
 
   .para2 {
@@ -61,17 +77,12 @@
 
 // md
 @media (min-width: 768px) {
-  .header2 {
-    margin: 2rem 0;
-    margin-top: 2.5rem;
+  .headerT {
+    margin-bottom: 2rem;
   }
 
   .header3 {
     margin: 1rem 0;
-  }
-
-  .para {
-    margin-bottom: 1rem;
   }
 
   .para2 {
