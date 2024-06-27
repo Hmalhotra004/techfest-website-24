@@ -14,7 +14,7 @@
 }
 
 #name {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--pop);
   font-weight: 400;
   text-align: center;
   color: $white;
@@ -22,7 +22,7 @@
 }
 
 #desg {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--pop);
   font-weight: 600;
   font-size: $size-lg;
   color: $light-blue;

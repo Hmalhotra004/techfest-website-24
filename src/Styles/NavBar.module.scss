@@ -21,7 +21,7 @@
 .lists {
   a {
     color: $white;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--montserrat);
     font-weight: 500;
     font-size: clamp(1rem, 1.25vw, 2rem);
     text-decoration: none;
