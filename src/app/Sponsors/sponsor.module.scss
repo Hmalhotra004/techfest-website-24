@@ -14,8 +14,9 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1rem;
+  width: 90%;
 
   img {
-    width: 12rem;
+    width: clamp(10rem, 100%, 15rem);
   }
 }

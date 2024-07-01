@@ -187,3 +187,106 @@ export const new1 = [
     name: "",
   },
 ];
+
+export const media = [
+  {
+    src: "/sponsors/media/2.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/3.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/4.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/5.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/6.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/7.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/8.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/10.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/11.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/12.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/13.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/14.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/15.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/17.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/18.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/19.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/20.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/20.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/21.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/22.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/24.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/25.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/26.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/27.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/media/28.png",
+    name: "",
+  },
+];
