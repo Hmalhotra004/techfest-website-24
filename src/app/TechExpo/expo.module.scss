@@ -3,3 +3,45 @@
 .bg {
   background-color: $oilblack;
 }
+
+.header {
+  @include h1;
+  font-family: var(--pop);
+}
+
+.para1 {
+  font-family: var(--pop);
+  font-size: clamp($size-xl, 2vw, $size-4xl);
+  text-align: center;
+  color: $light-blue;
+  margin-bottom: 1.5rem;
+}
+
+.para2 {
+  font-family: var(--pop);
+  font-size: clamp($size-xl, 2vw, $size-4xl);
+  text-align: center;
+  // color: $light-blue;
+  margin-bottom: 1.5rem;
+}
+
+#btn {
+  background-color: $expo;
+  padding: 10px;
+  border: 1px solid white;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    a {
+      color: $expo;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: $size-xl;
+  }
+}

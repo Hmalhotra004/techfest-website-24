@@ -1,0 +1,3 @@
+export const p1 = `The event is designed to test participants&apos adaptability, creativity, and analytical skills, as they present their assigned unconventional careers. Following are the details and activities which will be taking place in each round respectively.`;
+
+export const p2 = `​Tech-Expo is conducting an event which comprises of three distinct stages: the pre-registration round, the pitch round, and a surprise round. The event is designed to test participants' adaptability, creativity, and analytical skills, as they present their assigned unconventional careers with a twist. Following are the details and activities which will be taking place in each round respectively.`;

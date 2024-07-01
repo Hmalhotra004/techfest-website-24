@@ -5,6 +5,7 @@ $footer: #8a8a8a;
 $light-blue: #89aefa;
 $cont: #1b1c1e;
 $btn-text: #5f5bcd;
+$expo: #082152;
 
 //default
 $blue: #007bff;
@@ -74,10 +75,10 @@ $size-11xl: 10rem; /*160px*/
 }
 
 @mixin h1 {
+  font-size: clamp($size-5xl, 3vw, $size-7xl);
   font-weight: 600;
   margin-top: 3.5rem;
   margin-bottom: 1rem;
-  font-size: clamp($size-5xl, 10vw, $size-7xl);
 }
 
 @mixin h2 {
