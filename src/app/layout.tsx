@@ -1,5 +1,6 @@
 import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar";
+import "@/Styles/hamburgers.css";
 import type { Metadata } from "next";
 import { Chelsea_Market, Inter, Montserrat, Open_Sans, Poppins } from "next/font/google";
 import "./modern.css";
