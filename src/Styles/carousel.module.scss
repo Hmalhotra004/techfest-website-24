@@ -23,8 +23,6 @@
   background-color: $white;
   position: relative;
   left: 0;
-  width: 250%;
-  height: 100%;
   animation: slide 8s linear infinite;
 }
 
@@ -40,7 +38,11 @@
 /* 2xs */
 @media (min-width: 320px) {
   .carousel-container {
-    width: 25.6rem;
+    width: 50rem;
+  }
+  .carousel__track {
+    width: 550%;
+    height: 100%;
   }
 }
 
@@ -52,6 +54,10 @@
   .carousel-container {
     height: 100%;
     width: 100%;
+  }
+  .carousel__track {
+    width: 300%;
+    height: 100%;
   }
 }
 
