@@ -84,3 +84,106 @@ export const past = [
     name: "",
   },
 ];
+
+export const new1 = [
+  {
+    src: "/sponsors/new/1.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/2.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/3.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/4.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/5.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/6.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/7.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/8.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/9.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/10.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/11.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/12.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/13.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/14.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/15.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/17.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/18.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/19.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/20.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/21.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/22.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/23.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/24.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/25.png",
+    name: "",
+  },
+  {
+    src: "/sponsors/new/26.png",
+    name: "",
+  },
+];

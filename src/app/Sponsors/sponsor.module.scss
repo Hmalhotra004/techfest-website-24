@@ -8,3 +8,14 @@
   @include h1;
   font-family: var(--pop);
 }
+
+#yes {
+  @include flex-c;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  img {
+    width: 12rem;
+  }
+}
