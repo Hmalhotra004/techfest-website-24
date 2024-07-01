@@ -5,6 +5,11 @@
   background-color: $oilblack;
 }
 
+.head1 {
+  @include h1;
+  font-family: var(--pop);
+}
+
 .head2 {
   font-family: var(--pop);
   font-weight: 400;

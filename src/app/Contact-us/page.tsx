@@ -29,7 +29,7 @@ const ContactUs = () => {
     <section className={styles.bg}>
       <main className={`container mainP ${styles.mainPad}`}>
         <Reveal x={-800}>
-          <h1 className="heading">Contact Us</h1>
+          <h1 className={styles.head1}>Contact Us</h1>
         </Reveal>
 
         <form

@@ -5,6 +5,11 @@
   background-size: cover;
 }
 
+.head1 {
+  @include h1;
+  font-family: var(--pop);
+}
+
 #form {
   margin-top: 1rem;
   @include flex-cc;

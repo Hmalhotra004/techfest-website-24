@@ -8,7 +8,7 @@ const SAP = () => {
     <section className={styles.bg}>
       <main className={`container mainP`}>
         <Reveal x={-800}>
-          <h1 className="heading">Student Ambassador Program</h1>
+          <h1 className={styles.head1}>Student Ambassador Program</h1>
         </Reveal>
 
         <Reveal x={-800}>
