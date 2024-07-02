@@ -114,7 +114,7 @@ export const V3 = [
     desg: "Hospitality",
   },
   {
-    Name: "Parth Patel",
+    Name: "Parth Kuyate",
     img: "/mtt/v3/parth.png",
     desg: "Hospitality",
   },
