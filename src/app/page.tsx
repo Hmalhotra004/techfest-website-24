@@ -1,4 +1,5 @@
 "use client";
+import Reveal from "@/Components/Reveal";
 import TFLogo from "@/Components/TFLogo";
 import { motion } from "framer-motion";
 import stylesCore from "./homeCore.module.scss";
@@ -21,7 +22,9 @@ const HomeLogo = () => (
   <section className={stylesLogo.bg}>
     <section className={`container ${stylesLogo.first}`}>
       <div>
-        <TFLogo classname={stylesLogo.logo} />
+        <Reveal x={-200}>
+          <TFLogo classname={stylesLogo.logo} />
+        </Reveal>
         <TeamBtn />
       </div>
     </section>
@@ -50,9 +53,16 @@ const Theme = () => (
 );
 
 const TeamBtn = () => (
-  <button className={stylesLogo.meetbtn}>
-    <a href="/Meet-The-Team">Meet The Team</a>
-  </button>
+  <Reveal x={-200}>
+    <button className={stylesLogo.meetbtn}>
+      <Reveal
+        y={200}
+        de={0.2}
+      >
+        <a href="/Meet-The-Team">Meet The Team</a>
+      </Reveal>
+    </button>
+  </Reveal>
 );
 
 export default Home;
