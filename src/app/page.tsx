@@ -15,7 +15,7 @@ const Home = () => {
 
       <Theme />
 
-      <About />  
+      <About />
     </>
   );
 };
