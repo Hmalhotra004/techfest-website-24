@@ -38,25 +38,44 @@ const NavBar = () => {
       </div>
       <nav>
         <ul className={styles.links}>
-          <Anchor route="/">Home</Anchor>
-          <DropDown name="Events">
-            <>
-              <Anchor route="/Gaming-Events">Gaming Events</Anchor>
-              <Anchor route="/Informal-Events">Informal Events</Anchor>
-              <Anchor route="/Fintech-Events">Fintech Events</Anchor>
-            </>
-          </DropDown>
-          <Anchor route="/TechExpo">TechExpo</Anchor>
-          <Anchor route="/TechSummit">TechSummit</Anchor>
-          <Anchor route="/Meet-The-Team">Team</Anchor>
-          <Anchor route="/Sponsors">Sponsors</Anchor>
-          <DropDown name="More">
-            <>
-              <Anchor route="/SAP">SAP</Anchor>
-              <Anchor route="/Contact-us">Contact Us</Anchor>
-              <Anchor route="/About-us">About Us</Anchor>
-            </>
-          </DropDown>
+          <Anchor
+            route="/"
+            cn={styles.lists}
+          >
+            Home
+          </Anchor>
+
+          <EventDrop />
+
+          <Anchor
+            route="/TechExpo"
+            cn={styles.lists}
+          >
+            TechExpo
+          </Anchor>
+
+          <Anchor
+            route="/TechSummit"
+            cn={styles.lists}
+          >
+            TechSummit
+          </Anchor>
+
+          <Anchor
+            route="/Meet-The-Team"
+            cn={styles.lists}
+          >
+            Team
+          </Anchor>
+
+          <Anchor
+            route="/Sponsors"
+            cn={styles.lists}
+          >
+            Sponsors
+          </Anchor>
+
+          <MoreDrop />
         </ul>
       </nav>
 
@@ -66,13 +85,63 @@ const NavBar = () => {
       >
         {isOpen && (
           <MobileNav
-          // hide={hide}
-          // onClick={handleHamClick}
+            hide={hide}
+            onClick={handleHamClick}
           />
         )}
       </AnimatePresence>
     </section>
   );
 };
+
+const MoreDrop = () => (
+  <DropDown name="More">
+    <>
+      <Anchor
+        route="/SAP"
+        cn={styles.lists}
+      >
+        SAP
+      </Anchor>
+      <Anchor
+        route="/Contact-us"
+        cn={styles.lists}
+      >
+        Contact Us
+      </Anchor>
+      <Anchor
+        route="/About-us"
+        cn={styles.lists}
+      >
+        About Us
+      </Anchor>
+    </>
+  </DropDown>
+);
+
+const EventDrop = () => (
+  <DropDown name="Events">
+    <>
+      <Anchor
+        route="/Gaming-Events"
+        cn={styles.lists}
+      >
+        Gaming Events
+      </Anchor>
+      <Anchor
+        route="/Informal-Events"
+        cn={styles.lists}
+      >
+        Informal Events
+      </Anchor>
+      <Anchor
+        route="/Fintech-Events"
+        cn={styles.lists}
+      >
+        Fintech Events
+      </Anchor>
+    </>
+  </DropDown>
+);
 
 export default NavBar;

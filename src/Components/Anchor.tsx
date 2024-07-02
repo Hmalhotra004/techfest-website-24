@@ -7,12 +7,13 @@ type Props = {
   children: string;
   route: string;
   id?: string;
+  cn: string;
 };
 
-const Anchor = ({ children, route, id }: Props) => {
+const Anchor = ({ children, route, id, cn }: Props) => {
   const pathname = usePathname();
   return (
-    <li className={styles.lists}>
+    <li className={cn}>
       <Link
         href={route}
         className={pathname === route ? styles.active : ""}

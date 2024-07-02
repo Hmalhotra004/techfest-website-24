@@ -1,7 +1,24 @@
 import styles from "@/Styles/mobile.module.scss";
+import { useEffect } from "react";
 import Anchor from "./Anchor";
 
-const MobileNav = () => {
+type Props = {
+  hide: string;
+  onClick: () => void;
+};
+
+const MobileNav = ({ hide, onClick }: Props) => {
+  let mobile = styles.mobile_menu;
+  mobile += ` ${hide}`;
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, []);
+
   return (
     <header>
       <nav>
