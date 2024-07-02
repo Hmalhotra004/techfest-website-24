@@ -17,7 +17,6 @@
 }
 
 .logo {
-  padding: 10rem 0 1.5rem 0;
   width: 55rem;
 }
 
@@ -25,17 +24,29 @@
   color: transparent !important;
   border: 3px solid white;
   padding: 8px;
+  transition: 0.3s ease;
+
+  &:hover {
+    border: 3px solid $gray;
+  }
 
   a {
     text-decoration: none;
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
     color: white;
     font-family: var(--montserrat);
   }
 }
 
 // 3xs
-// @media (min-width: 320px) {}
+@media (min-width: 320px) {
+  .logo {
+    padding: 8rem 0 1rem 0;
+  }
+  .meetbtn {
+    margin-bottom: 10rem;
+  }
+}
 
 // 2xs
 // @media (min-width: 375px) {}
@@ -47,7 +58,14 @@
 // @media (min-width: 640px) {}
 
 // md
-// @media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .logo {
+    padding: 15rem 0 1.5rem 0;
+  }
+  .meetbtn {
+    margin-bottom: 40rem;
+  }
+}
 
 /* lg */
 // @media (min-width: 1024px) {}
