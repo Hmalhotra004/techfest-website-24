@@ -39,7 +39,9 @@ const TeamSec = () => (
   <section className={stylesCore.bg}>
     <section className={`container ${stylesCore.core}`}>
       <div>
-        <h2>Top Core Team</h2>
+        <Reveal y={200}>
+          <h2>Top Core Team</h2>
+        </Reveal>
       </div>
       <div>
         <h1>hello</h1>
