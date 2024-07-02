@@ -1,0 +1,55 @@
+@import "./utils.scss";
+
+.bg {
+  background-color: $oilblack;
+}
+
+.core {
+  display: grid;
+  padding: 1rem;
+  @include b-r;
+  color: white;
+}
+.core > div {
+  @include flex-c;
+
+  h2 {
+    font-family: var(--pop);
+    font-weight: 500;
+    font-size: clamp(2rem, 2vw, 5rem);
+  }
+}
+
+// 3xs
+@media (min-width: 320px) {
+  .core {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+// @media (min-width: 640px) {}
+
+// md
+@media (min-width: 768px) {
+  .core {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}

@@ -1,0 +1,40 @@
+@import "./utils.scss";
+
+.bg {
+  background-image: url("/bg/themebg1.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.theme {
+  @include flex-c;
+  padding: 5rem;
+
+  img {
+    width: 55rem;
+  }
+}
+
+// 3xs
+// @media (min-width: 320px) {}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+// @media (min-width: 640px) {}
+
+// md
+// @media (min-width: 768px) {}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}
