@@ -1,4 +1,7 @@
+"use client";
+import { header } from "@/lib/header";
 import styles from "@/Styles/mobile.module.scss";
+import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Anchor from "./Anchor";
 
@@ -8,7 +11,7 @@ type Props = {
 };
 
 const MobileNav = ({ hide, onClick }: Props) => {
-  let mobile = styles.mobile_menu;
+  let mobile = styles.menu;
   mobile += ` ${hide}`;
 
   useEffect(() => {
@@ -21,21 +24,28 @@ const MobileNav = ({ hide, onClick }: Props) => {
 
   return (
     <header>
-      <nav>
+      <motion.nav
+        className={mobile}
+        initial={{ opacity: 0, x: "100vh" }}
+        animate={{ opacity: 1, x: 0, transition: { duration: 0.5 } }}
+        exit={{ opacity: 0, x: "100vh", transition: { duration: 0.5 } }}
+      >
         <ul className={styles.links}>
-          <Anchor route="/">Home</Anchor>
-          <Anchor route="/Gaming-Events">Gaming Events</Anchor>
-          <Anchor route="/Informal-Events">Informal Events</Anchor>
-          <Anchor route="/Fintech-Events">Fintech Events</Anchor>
-          <Anchor route="/TechExpo">TechExpo</Anchor>
-          <Anchor route="/TechSummit">TechSummit</Anchor>
-          <Anchor route="/Meet-The-Team">Team</Anchor>
-          <Anchor route="/Sponsors">Sponsors</Anchor>
-          <Anchor route="/SAP">SAP</Anchor>
-          <Anchor route="/Contact-us">Contact Us</Anchor>
-          <Anchor route="/About-us">About Us</Anchor>
+          {header.map((link, idx) => (
+            <button
+              onClick={onClick}
+              key={idx}
+            >
+              <Anchor
+                route={link.to}
+                cn={styles.lists}
+              >
+                {link.name}
+              </Anchor>
+            </button>
+          ))}
         </ul>
-      </nav>
+      </motion.nav>
     </header>
   );
 };

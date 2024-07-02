@@ -4,9 +4,16 @@ export const header = [
     to: "/",
   },
   {
-    name: "Events",
-    to: "/",
-    drop: ["Gaming Events", "Informal Events", "FinTech Events"],
+    name: "Gaming Events",
+    to: "/Gaming-Events",
+  },
+  {
+    name: "Informal Events",
+    to: "/Informal-Events",
+  },
+  {
+    name: "Fintech Events",
+    to: "/Fintech-Events",
   },
   {
     name: "TechExpo",
@@ -17,8 +24,8 @@ export const header = [
     to: "/TechSummit",
   },
   {
-    name: "Meet The Team",
-    to: "/MeetTheTeam",
+    name: "Team",
+    to: "/Meet-The-Team",
   },
   {
     name: "Sponsors",

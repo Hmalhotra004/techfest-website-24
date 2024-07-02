@@ -25,17 +25,20 @@ const NavBar = () => {
   return (
     <section className={styles.header}>
       <TFLogo classname={styles.logo} />
+
       <div className={styles.hamMobile}>
         <button
           className={hamClass}
           type="button"
           onClick={handleHamClick}
         >
+          
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
           </span>
         </button>
       </div>
+
       <nav>
         <ul className={styles.links}>
           <Anchor

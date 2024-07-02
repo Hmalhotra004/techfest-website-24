@@ -29,6 +29,10 @@
   }
 }
 
+.logo {
+  z-index: 110;
+}
+
 // 3xs
 @media (min-width: 320px) {
   .header {
@@ -43,6 +47,7 @@
   }
   .hamMobile {
     @include flex-c;
+    z-index: 100;
   }
   .logo {
     width: 15rem;
