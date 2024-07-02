@@ -9,10 +9,6 @@
   color: $active;
 }
 
-.logo {
-  width: clamp(10rem, 100%, 20rem);
-}
-
 .links {
   list-style: none;
   padding: 0;
@@ -41,6 +37,15 @@
     a {
       margin-right: auto;
     }
+  }
+  .links {
+    display: none;
+  }
+  .hamMobile {
+    @include flex-c;
+  }
+  .logo {
+    width: 15rem;
   }
 }
 
@@ -72,6 +77,12 @@
   .logo {
     margin-right: auto;
     margin-left: 1px;
+  }
+  .hamMobile {
+    display: none;
+  }
+  .logo {
+    width: 20rem;
   }
 }
 
