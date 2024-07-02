@@ -1,0 +1,80 @@
+@import "./utils.scss";
+
+.bg1 {
+  background-color: $oilblack;
+}
+
+.bg2 {
+  background-image: url("/bg/aboutbg1.jpg");
+}
+
+.about {
+  background-color: $oilblack;
+  display: grid;
+  gap: 3rem;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  color: white;
+}
+
+.about > div {
+  @include flex-c;
+
+  h2 {
+    font-family: var(--pop);
+    font-weight: 500;
+    font-size: clamp(2.5rem, 3.5vw, 5rem);
+  }
+}
+
+.details {
+  @include flex-cc;
+
+  h3 {
+    font-size: clamp(1.5rem, 2vw, 5rem);
+    font-family: var(--pop);
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  p {
+    font-size: clamp(1rem, 1.5vw, 2.5rem);
+    margin: 0.5rem 0;
+    font-family: var(--pop);
+    text-align: justify;
+  }
+}
+
+// 3xs
+@media (min-width: 320px) {
+  .about {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10rem 1fr;
+  }
+}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+// @media (min-width: 640px) {}
+
+// md
+@media (min-width: 768px) {
+  .about {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}

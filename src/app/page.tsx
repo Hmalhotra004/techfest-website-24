@@ -1,7 +1,9 @@
 "use client";
 import Reveal from "@/Components/Reveal";
 import TFLogo from "@/Components/TFLogo";
+import { about } from "@/lib/about";
 import { motion } from "framer-motion";
+import stylesAbout from "./homeAbout.module.scss";
 import stylesCore from "./homeCore.module.scss";
 import stylesLogo from "./homeLogo.module.scss";
 import stylesTheme from "./homeTheme.module.scss";
@@ -55,13 +57,20 @@ const Theme = () => (
 );
 
 const About = () => (
-  <section>
-    <div>
-      <h2>About Us</h2>
-    </div>
-    <div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae</p>
-    </div>
+  <section className={`${stylesAbout.bg1}`}>
+    <section className={`container ${stylesAbout.about}`}>
+      <div className={stylesAbout.bg2}>
+        <h2>About Us</h2>
+      </div>
+      <div className={stylesAbout.details}>
+        {about.map((data, idx) => (
+          <div key={idx}>
+            <h3>{data.head}</h3>
+            <p>{data.d}</p>
+          </div>
+        ))}
+      </div>
+    </section>
   </section>
 );
 
