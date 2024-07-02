@@ -14,6 +14,8 @@ const Home = () => {
       <TeamSec />
 
       <Theme />
+
+      <About />  
     </>
   );
 };
@@ -49,6 +51,17 @@ const Theme = () => (
     <section className={`container ${stylesTheme.theme}`}>
       <motion.img src="/theme.png" />
     </section>
+  </section>
+);
+
+const About = () => (
+  <section>
+    <div>
+      <h2>About Us</h2>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae</p>
+    </div>
   </section>
 );
 
