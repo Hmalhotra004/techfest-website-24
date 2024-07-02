@@ -8,7 +8,6 @@
 
 .theme {
   @include flex-c;
-  padding: 5rem;
 
   img {
     width: 55rem;
@@ -16,7 +15,11 @@
 }
 
 // 3xs
-// @media (min-width: 320px) {}
+@media (min-width: 320px) {
+  .theme {
+    padding: 1.5rem;
+  }
+}
 
 // 2xs
 // @media (min-width: 375px) {}
@@ -28,7 +31,11 @@
 // @media (min-width: 640px) {}
 
 // md
-// @media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .theme {
+    padding: 5rem;
+  }
+}
 
 /* lg */
 // @media (min-width: 1024px) {}
