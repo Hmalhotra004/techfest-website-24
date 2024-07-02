@@ -1,0 +1,59 @@
+@import "./utils.scss";
+
+.bg1 {
+  background-image: url("/bg/homebg1.jpg");
+  background-repeat: repeat;
+}
+
+.first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  div {
+    @include flex-cc;
+  }
+}
+
+.logo {
+  padding: 10rem 0 1.5rem 0;
+  width: 55rem;
+}
+
+.meetbtn {
+  color: transparent !important;
+  border: 3px solid white;
+  padding: 8px;
+
+  a {
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: white;
+    font-family: var(--montserrat);
+  }
+}
+
+// 3xs
+// @media (min-width: 320px) {}
+
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+// @media (min-width: 640px) {}
+
+// md
+// @media (min-width: 768px) {}
+
+/* lg */
+// @media (min-width: 1024px) {}
+
+// xl
+// @media (min-width: 1280px) {}
+
+// 2xl
+// @media (min-width: 1536px) {}
