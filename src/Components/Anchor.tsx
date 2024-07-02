@@ -19,7 +19,7 @@ const Anchor = ({ children, route, id, cn }: Props) => {
         className={pathname === route ? styles.active : ""}
         id={id}
       >
-        {children}
+        <p>{children}</p>
       </Link>
     </li>
   );

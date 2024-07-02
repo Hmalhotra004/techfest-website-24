@@ -24,15 +24,13 @@
 
 .lists {
   padding-right: 10px;
+  text-align: right;
 
   a {
     text-decoration: none;
     color: $white;
-  }
-
-  p {
-    font-size: $size-2xl;
-    text-align: right;
+    font-size: $size-3xl;
+    font-family: var(--montserrat);
   }
 }
 

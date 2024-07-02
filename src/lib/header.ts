@@ -37,7 +37,7 @@ export const header = [
   },
   {
     name: "Contact Us",
-    to: "/Contactus",
+    to: "/Contact-us",
   },
   {
     name: "About Us",
