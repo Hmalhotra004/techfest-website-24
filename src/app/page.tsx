@@ -51,7 +51,9 @@ const TeamSec = () => (
 const Theme = () => (
   <section className={stylesTheme.bg}>
     <section className={`container ${stylesTheme.theme}`}>
-      <motion.img src="/theme.png" />
+      <Reveal y={300}>
+        <motion.img src="/theme.png" />
+      </Reveal>
     </section>
   </section>
 );
@@ -60,13 +62,20 @@ const About = () => (
   <section className={`${stylesAbout.bg1}`}>
     <section className={`container ${stylesAbout.about}`}>
       <div className={stylesAbout.bg2}>
-        <h2>About Us</h2>
+        <Reveal y={200}>
+          <h2>About Us</h2>
+        </Reveal>
       </div>
       <div className={stylesAbout.details}>
         {about.map((data, idx) => (
           <div key={idx}>
-            <h3>{data.head}</h3>
-            <p>{data.d}</p>
+            <Reveal x={-300}>
+              <h3>{data.head}</h3>
+            </Reveal>
+
+            <Reveal x={-300}>
+              <p>{data.d}</p>
+            </Reveal>
           </div>
         ))}
       </div>
