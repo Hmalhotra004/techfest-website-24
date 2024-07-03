@@ -2,7 +2,7 @@
 
 .menu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   position: fixed;
   background-color: $obsidian;
@@ -24,7 +24,7 @@
 
 .lists {
   padding-right: 10px;
-  text-align: right;
+  text-align: center;
 
   a {
     text-decoration: none;
