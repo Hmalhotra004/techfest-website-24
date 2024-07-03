@@ -40,7 +40,7 @@ const CoreTeam = () => {
 
             <div id={stylesCore.extra}>
               <TeamCard
-                src="/mtt/top/kalp-1.png"
+                src="/mtt/top/Kalp-1.png"
                 desg="Vice Chairperson 3"
               />
             </div>
@@ -53,7 +53,7 @@ const CoreTeam = () => {
 
           <div id={stylesCore.bottom}>
             <TeamCard
-              src="/mtt/top/kalp-1.png"
+              src="/mtt/top/Kalp-1.png"
               desg="Vice Chairperson 3"
             />
           </div>
