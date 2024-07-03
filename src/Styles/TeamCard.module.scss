@@ -26,8 +26,11 @@
 // 3xs
 @media (min-width: 320px) {
   #pic_cont {
-    margin: 1rem 0;
+    // margin: 1rem 0;
     width: 12rem;
+  }
+  #desg {
+    font-size: $size-base;
   }
 }
 
@@ -44,8 +47,11 @@
 // md
 @media (min-width: 768px) {
   #pic_cont {
-    margin-bottom: 1rem;
-    width: 14rem;
+    // margin-bottom: 1rem;
+    width: 16rem;
+  }
+  #desg {
+    font-size: $size-lg;
   }
 }
 
