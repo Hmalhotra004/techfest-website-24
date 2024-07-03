@@ -11,7 +11,7 @@ type PropsO = {
 };
 
 const Cards = ({ data }: PropsO) => (
-  <div id="wrapper">
+  <div id={styles.wrapper}>
     {data.map((data, idx) => (
       <Card
         key={idx}

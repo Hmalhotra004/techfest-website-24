@@ -29,11 +29,23 @@
   text-transform: uppercase;
 }
 
+#wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 // 3xs
 @media (min-width: 320px) {
   #pic_cont {
     margin-bottom: 0rem;
     width: 12rem;
+    margin: 1rem 0;
+  }
+
+  #wrapper {
+    gap: 0rem;
   }
 
   #desg {
@@ -60,6 +72,10 @@
   #pic_cont {
     margin-bottom: 1rem;
     width: 16rem;
+  }
+
+  #wrapper {
+    gap: 1rem;
   }
 
   #desg {

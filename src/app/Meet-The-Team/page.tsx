@@ -1,7 +1,6 @@
 "use client";
-import Cards from "@/Components/Cards";
+import Cards, { Card } from "@/Components/Cards";
 import Reveal from "@/Components/Reveal";
-import TeamCard from "@/Components/TeamCard";
 import { top, V1, V2, V3, V4 } from "@/lib/mtt";
 import styles from "./mtt.module.scss";
 
@@ -19,7 +18,7 @@ const MeetTheTeam = () => {
           </Reveal>
 
           <main>
-            <TeamCard
+            <Card
               src="/mtt/top/devB.png"
               name="Dev Barot"
               desg="Chairperson"
@@ -27,7 +26,7 @@ const MeetTheTeam = () => {
 
             <Cards data={top} />
 
-            <TeamCard
+            <Card
               src="/mtt/top/aayushpatel.png"
               name="Aayush Patel"
               desg="Fest Advisor"

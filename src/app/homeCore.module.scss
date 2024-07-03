@@ -13,16 +13,18 @@
 
 #left {
   @include flex-c;
+  border: 1px solid $light-blue;
 
   h2 {
     font-family: var(--pop);
     font-weight: 500;
-    font-size: clamp(2rem, 2vw, 5rem);
+    font-size: clamp(1.5rem, 2vw, 5rem);
   }
 }
 
 #right {
   @include flex-cc;
+  // padding: 0 1rem;
 }
 
 // 3xs
