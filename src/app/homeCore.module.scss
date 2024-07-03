@@ -10,7 +10,8 @@
   // @include b-r;
   color: white;
 }
-.core > div {
+
+#left {
   @include flex-c;
 
   h2 {
@@ -18,6 +19,20 @@
     font-weight: 500;
     font-size: clamp(2rem, 2vw, 5rem);
   }
+}
+
+#right {
+  @include flex-cc;
+}
+
+#top {
+  @include flex-c;
+  gap: 1rem;
+}
+
+#mid {
+  @include flex-c;
+  // gap: 1rem;
 }
 
 // 3xs
@@ -40,7 +55,7 @@
 // md
 @media (min-width: 768px) {
   .core {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
   }
 }

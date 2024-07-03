@@ -1,24 +1,39 @@
-import Image from "next/image";
-import "../styles/components/teamcard.css";
+import styles from "@/Styles/TeamCard.module.scss";
+import { motion } from "framer-motion";
+import Reveal from "./Reveal";
 
-type Props = {
-  img: string;
-  name: string;
-  title: string;
+type PropsC = {
+  src: string;
+  name?: string;
+  desg?: string;
 };
 
-const TeamCard = ({ img, name, title }: Props) => {
+export const TeamCard = ({ src, name, desg }: PropsC) => {
   return (
-    <div className="team-container">
-      <Image
-        src={img}
-        alt={name}
-        width={1000}
-        height={100}
-      />
-      <h6>{title}</h6>
-      <h3>{name}</h3>
-    </div>
+    <>
+      <Reveal y={100}>
+        <div id={styles.pic_cont}>
+          <Reveal
+            y={50}
+            du={0.8}
+          >
+            <motion.img
+              src={src}
+              alt={name}
+              id={styles.pic}
+            />
+          </Reveal>
+
+          <Reveal x={-500}>
+            <h6 id={styles.desg}>{desg}</h6>
+          </Reveal>
+
+          <Reveal x={-500}>
+            <h3 id={styles.name}>{name}</h3>
+          </Reveal>
+        </div>
+      </Reveal>
+    </>
   );
 };
 

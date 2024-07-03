@@ -1,59 +1,72 @@
-.team-container {
-  padding: 10px 10px;
-  background-color: var(--pic-container);
+@import "../app/utils.scss";
+
+#pic_cont {
+  padding: 10px;
+  background-color: $cont;
   border-radius: 10px;
-  margin-bottom: 1rem;
+  width: 16rem;
 }
 
-.team-container img {
-  width: 14rem;
-  height: fit-content;
-  padding-bottom: 0.5rem;
+#pic {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.5rem;
 }
 
-.team-container h6 {
-  font-family: "Poppins", sans-serif;
+#name {
+  font-family: var(--pop);
+  font-weight: 400;
+  text-align: center;
+  color: $white;
+  font-size: $size-2xl;
+}
+
+#desg {
+  font-family: var(--pop);
   font-weight: 600;
-  font-size: var(--size-lg);
-  color: var(--text-desg);
+  font-size: $size-lg;
+  color: $light-blue;
   text-align: center;
   text-transform: uppercase;
 }
 
-.team-container h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: 30px;
-  font-size: 1.55rem;
+// 3xs
+@media (min-width: 320px) {
+  #pic_cont {
+    margin: 1rem 0;
+    width: 12rem;
+  }
+  #name {
+    font-size: $size-lg;
+  }
 }
 
-/* 2xs */
-/* @media (min-width: 320px) {
-  .team-container {
-    background-color: transparent;
+// 2xs
+// @media (min-width: 375px) {}
+
+// xs
+// @media (min-width: 475px) {}
+
+// sm
+@media (min-width: 640px) {
+}
+
+// md
+@media (min-width: 768px) {
+  #pic_cont {
+    margin-bottom: 1rem;
+    width: 16rem;
   }
-
-  .team-container img {
-    border-radius: 50%;
-    
+  #name {
+    font-size: $size-2xl;
   }
-} */
-
-/* xs */
-/* @media (min-width: 475px) {} */
-
-/* sm */
-/* @media (min-width: 640px) {} */
-
-/* md */
-/* @media (min-width: 768px) {} */
+}
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+// @media (min-width: 1024px) {}
 
-/* xl */
-/* @media (min-width: 1280px) {} */
+// xl
+// @media (min-width: 1280px) {}
 
-/* 2xl */
-/* @media (min-width: 1536px) {} */
+// 2xl
+// @media (min-width: 1536px) {}

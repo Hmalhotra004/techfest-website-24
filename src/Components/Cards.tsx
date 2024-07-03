@@ -25,7 +25,7 @@ const Cards = ({ data }: PropsO) => (
 
 type PropsC = {
   src: string;
-  name: string;
+  name?: string;
   desg?: string;
 };
 
