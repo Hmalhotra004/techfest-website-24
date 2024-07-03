@@ -25,21 +25,32 @@
   @include flex-cc;
 }
 
-#top {
-  @include flex-c;
-  gap: 1rem;
-}
-
-#mid {
-  @include flex-c;
-  // gap: 1rem;
-}
-
 // 3xs
 @media (min-width: 320px) {
   .core {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 10rem 1fr;
+  }
+
+  #top {
+    @include flex-cc;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  #mid {
+    @include flex-cc;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  #img,
+  #bottom {
+    display: none;
+  }
+
+  #extra {
+    display: block;
   }
 }
 
@@ -57,6 +68,24 @@
   .core {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+  }
+
+  #top {
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+  }
+
+  #mid {
+    flex-direction: row;
+  }
+
+  #img,
+  #bottom {
+    display: block;
+  }
+
+  #extra {
+    display: none;
   }
 }
 

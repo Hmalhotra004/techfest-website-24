@@ -1,11 +1,10 @@
 "use client";
-import { Card } from "@/Components/Cards";
+import CoreTeam from "@/Components/CoreTeam";
 import Reveal from "@/Components/Reveal";
 import TFLogo from "@/Components/TFLogo";
 import { about } from "@/lib/about";
 import { motion } from "framer-motion";
 import stylesAbout from "./homeAbout.module.scss";
-import stylesCore from "./homeCore.module.scss";
 import stylesLogo from "./homeLogo.module.scss";
 import stylesTheme from "./homeTheme.module.scss";
 
@@ -14,7 +13,7 @@ const Home = () => {
     <>
       <HomeLogo />
 
-      <Core />
+      <CoreTeam />
 
       <Theme />
 
@@ -31,54 +30,6 @@ const HomeLogo = () => (
           <TFLogo classname={stylesLogo.logo} />
         </Reveal>
         <TeamBtn />
-      </div>
-    </section>
-  </section>
-);
-
-const Core = () => (
-  <section className={stylesCore.bg}>
-    <section className={`container ${stylesCore.core}`}>
-      <div id={stylesCore.left}>
-        <Reveal y={200}>
-          <h2>Top Core Team</h2>
-        </Reveal>
-      </div>
-
-      <div id={stylesCore.right}>
-        <div id={stylesCore.top}>
-          <Card
-            src="/mtt/top/devB-1.png"
-            desg="Chairperson"
-          />
-          <Card
-            src="/mtt/top/anshika-1.png"
-            desg="Vice Chairperson 1"
-          />
-        </div>
-
-        <div id={stylesCore.mid}>
-          <Card
-            src="/mtt/top/sean-1.png"
-            desg="Vice Chairperson 4"
-          />
-
-          <Reveal y={200}>
-            <motion.img src="./icon.png" />
-          </Reveal>
-
-          <Card
-            src="/mtt/top/kasvi-1.png"
-            desg="Vice Chairperson 2"
-          />
-        </div>
-
-        <div id={stylesCore.last}>
-          <Card
-            src="/mtt/top/kalp-1.png"
-            desg="Vice Chairperson 3"
-          />
-        </div>
       </div>
     </section>
   </section>
