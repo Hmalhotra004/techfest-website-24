@@ -6,6 +6,8 @@
 
 .core {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10rem 1fr;
   padding: 1rem;
   // @include b-r;
   color: white;
@@ -13,7 +15,6 @@
 
 #left {
   @include flex-c;
-  border: 1px solid $light-blue;
 
   h2 {
     font-family: var(--pop);
@@ -24,16 +25,10 @@
 
 #right {
   @include flex-cc;
-  // padding: 0 1rem;
 }
 
 // 3xs
 @media (min-width: 320px) {
-  .core {
-    grid-template-columns: 1fr;
-    grid-template-rows: 10rem 1fr;
-  }
-
   #top {
     @include flex-cc;
     gap: 1rem;
@@ -67,11 +62,6 @@
 
 // md
 @media (min-width: 768px) {
-  .core {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
-  }
-
   #top {
     flex-direction: row;
     margin-bottom: 0.5rem;

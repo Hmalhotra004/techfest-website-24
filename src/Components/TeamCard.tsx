@@ -4,11 +4,10 @@ import Reveal from "./Reveal";
 
 type PropsC = {
   src: string;
-  name?: string;
-  desg?: string;
+  desg: string;
 };
 
-export const TeamCard = ({ src, name, desg }: PropsC) => {
+export const TeamCard = ({ src, desg }: PropsC) => {
   return (
     <>
       <Reveal y={100}>
@@ -19,17 +18,13 @@ export const TeamCard = ({ src, name, desg }: PropsC) => {
           >
             <motion.img
               src={src}
-              alt={name}
+              alt={desg}
               id={styles.pic}
             />
           </Reveal>
 
           <Reveal x={-500}>
             <h6 id={styles.desg}>{desg}</h6>
-          </Reveal>
-
-          <Reveal x={-500}>
-            <h3 id={styles.name}>{name}</h3>
           </Reveal>
         </div>
       </Reveal>

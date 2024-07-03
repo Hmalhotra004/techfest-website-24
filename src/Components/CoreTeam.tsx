@@ -1,7 +1,7 @@
 import stylesCore from "@/app/homeCore.module.scss";
 import { motion } from "framer-motion";
-import { Card } from "./Cards";
 import Reveal from "./Reveal";
+import { TeamCard } from "./TeamCard";
 
 const CoreTeam = () => {
   return (
@@ -15,18 +15,18 @@ const CoreTeam = () => {
 
         <div id={stylesCore.right}>
           <div id={stylesCore.top}>
-            <Card
+            <TeamCard
               src="/mtt/top/devB-1.png"
               desg="Chairperson"
             />
-            <Card
+            <TeamCard
               src="/mtt/top/anshika-1.png"
               desg="Vice Chairperson 1"
             />
           </div>
 
           <div id={stylesCore.mid}>
-            <Card
+            <TeamCard
               src="/mtt/top/sean-1.png"
               desg="Vice Chairperson 4"
             />
@@ -39,20 +39,20 @@ const CoreTeam = () => {
             </Reveal>
 
             <div id={stylesCore.extra}>
-              <Card
+              <TeamCard
                 src="/mtt/top/kalp-1.png"
                 desg="Vice Chairperson 3"
               />
             </div>
 
-            <Card
+            <TeamCard
               src="/mtt/top/kasvi-1.png"
               desg="Vice Chairperson 2"
             />
           </div>
 
           <div id={stylesCore.bottom}>
-            <Card
+            <TeamCard
               src="/mtt/top/kalp-1.png"
               desg="Vice Chairperson 3"
             />
