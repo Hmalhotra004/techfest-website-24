@@ -32,7 +32,6 @@ const NavBar = () => {
           type="button"
           onClick={handleHamClick}
         >
-          
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
           </span>

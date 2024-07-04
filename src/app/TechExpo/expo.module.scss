@@ -12,10 +12,12 @@
 .header2 {
   @include h2;
   font-family: var(--pop);
+  text-align: center;
 }
 
 .header3 {
   font-size: clamp($size-xl, 2vw, $size-3xl);
+  text-align: center;
   font-family: var(--pop);
   margin: 0.5rem 0;
   color: $light-blue;
