@@ -47,7 +47,7 @@ const Theme = () => (
 
 const About = () => (
   <section className={`${stylesAbout.bg1}`}>
-    <section className={`container ${stylesAbout.about}`}>
+    <section className={`container ${stylesAbout.about}`} id="about-us">
       <div className={stylesAbout.bg2}>
         <Reveal y={200}>
           <h2>About Us</h2>

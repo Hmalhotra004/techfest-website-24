@@ -111,12 +111,12 @@ const MoreDrop = () => (
       >
         Contact Us
       </Anchor>
-      <Anchor
+      {/* <Anchor
         route="/About-us"
         cn={styles.lists}
       >
         About Us
-      </Anchor>
+      </Anchor> */}
     </>
   </DropDown>
 );
