@@ -77,7 +77,18 @@ const NavBar = () => {
             Sponsors
           </Anchor>
 
-          <MoreDrop />
+          <Anchor
+            route="/SAP"
+            cn={styles.lists}
+          >
+            SAP
+          </Anchor>
+          <Anchor
+            route="/Contact-us"
+            cn={styles.lists}
+          >
+            Contact
+          </Anchor>
         </ul>
       </nav>
 
@@ -96,30 +107,24 @@ const NavBar = () => {
   );
 };
 
-const MoreDrop = () => (
-  <DropDown name="More">
-    <>
-      <Anchor
-        route="/SAP"
-        cn={styles.lists}
-      >
-        SAP
-      </Anchor>
-      <Anchor
-        route="/Contact-us"
-        cn={styles.lists}
-      >
-        Contact Us
-      </Anchor>
-      {/* <Anchor
-        route="/About-us"
-        cn={styles.lists}
-      >
-        About Us
-      </Anchor> */}
-    </>
-  </DropDown>
-);
+// const MoreDrop = () => (
+//   <DropDown name="More">
+//     <>
+//       <Anchor
+//         route="/SAP"
+//         cn={styles.lists}
+//       >
+//         SAP
+//       </Anchor>
+//       <Anchor
+//         route="/Contact-us"
+//         cn={styles.lists}
+//       >
+//         Contact Us
+//       </Anchor>
+//     </>
+//   </DropDown>
+// );
 
 const EventDrop = () => (
   <DropDown name="Events">
