@@ -19,7 +19,7 @@ const MeetTheTeam = () => {
 
           <main>
             <Card
-              src="/mtt/top/devB.png"
+              src="/mtt/top/devB-1.png"
               name="Dev Barot"
               desg="Chairperson"
             />
@@ -27,7 +27,7 @@ const MeetTheTeam = () => {
             <Cards data={top} />
 
             <Card
-              src="/mtt/top/aayushpatel.png"
+              src="/mtt/top/aayushpatel-1.png"
               name="Aayush Patel"
               desg="Fest Advisor"
             />
