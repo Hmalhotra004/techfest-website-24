@@ -6,10 +6,12 @@
 }
 
 #dropdownContent {
+  transform: translateX(3000);
+  margin-right: 2rem;
   display: none;
   position: absolute;
   background-color: $header;
-  width: clamp(10rem, 240%, 30rem);
+  width: clamp(10rem, 195%, 25rem);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
